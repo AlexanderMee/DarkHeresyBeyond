@@ -11,6 +11,8 @@ from .main.test import test
 def create_app():
     app = Flask(__name__)
 
+    db.init_app(app)
+
     app.register_blueprint(index)
     app.register_blueprint(test)       
     app.register_blueprint(auth_goog)
