@@ -7,6 +7,7 @@ def init_app(app):
     parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(parent_dir, 'data.sqlite')
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+    #move these to config file once we start working with multiple dbs
     
     # Import your SQLAlchemy models into the Flask app
     from ..models import User

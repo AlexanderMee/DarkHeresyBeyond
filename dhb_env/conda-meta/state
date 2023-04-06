@@ -1,1 +1,1 @@
-{"env_vars": {"FLASK_APP": "__init__.py"}}
+{"env_vars": {"FLASK_APP": "__init__.py", "GOOGLE_CLIENT_ID": "731233925413-2ddb1pg213jv5k5062ldudb3j1lm65aj.apps.googleusercontent.com", "GOOGLE_CLIENT_SECRET": "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"}}
