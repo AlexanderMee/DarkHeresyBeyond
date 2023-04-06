@@ -5,7 +5,8 @@ from flask import Flask
 from .config import config 
 from .ext import db, loginManager, oauth
 from .ext.oauth import google
-#from .main.auth_goog import auth_goog
+from .main.auth_goog import auth_goog
+from .main.wait import wait
 from .main.index import index
 from .main.test import test
 
@@ -20,15 +21,21 @@ def create_app():
     #database setup
     db.init_app(app)
 
+    #google config
+    google = oauth.init_app(app)
+    app.config['google'] = google
+    print("this is google at factory:{}".format(google))
+
     #other extentions
     loginManager.init_app(app)
-    #google = oauth.init_app(app)
-    #print("this is google:{}".format(google))
+    #oauth.init_app(app)
+    print("this is google at factory:{}".format(google))
 
     #blueprints
     app.register_blueprint(index)
     app.register_blueprint(test)       
-    #.register_blueprint(auth_goog)
+    app.register_blueprint(auth_goog)
+    app.register_blueprint(wait)
         
     #app.config['SQLALCHEMY_DATABASE_URI'] = 'sqllite:///db.sqllite3'
 

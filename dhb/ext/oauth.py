@@ -1,4 +1,4 @@
-'''from flask_oauthlib.client import OAuth
+from flask_oauthlib.client import OAuth
 
 oauth = OAuth()
 
@@ -27,6 +27,6 @@ def init_app(app):
         consumer_secret=app.config['GOOGLE_CLIENT_SECRET']
     ) #this has to go within the function bevause it relies on config which occurs before extentions
 
-    print("this is google:{}".format(google))
+    print("this is google at ext:{}".format(google))
 
     return google

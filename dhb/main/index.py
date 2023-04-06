@@ -2,7 +2,7 @@ from flask import Blueprint
 
 index = Blueprint('index', __name__)
 
-@index.route('/hello')
+@index.route('/')
 def hello(): #can not be the same name as the blueprint name
     return 'Hello World!'
 

@@ -1,4 +1,4 @@
-'''from flask import Blueprint, redirect, url_for
+from flask import Blueprint, redirect, url_for, current_app
 from google.oauth2 import id_token
 from google.auth.transport import requests
 
@@ -11,32 +11,19 @@ from ..models import User
 
 auth_goog = Blueprint('auth_goog', __name__)
 
-#google = oauth.remote_app(oauth)
-
 @login_manager.user_loader
 def load_user(user_id):
     return User.get(user_id)
-''''''
-google = oauth.remote_app(
-    'google',
-    consumer_key=os.environ.get('GOOGLE_CLIENT_ID'),
-    consumer_secret=os.environ.get('GOOGLE_CLIENT_SECRET'),
-    request_token_params={
-        'scope': 'email profile'
-    },
-    base_url='https://www.googleapis.com/oauth2/v1/',
-    authorize_url='https://accounts.google.com/o/oauth2/auth',
-    access_token_url='https://accounts.google.com/o/oauth2/token'
-)
-''''''
 
 @auth_goog.route('/test2')
 def test2():
-    print(google)
+    google = current_app.config['google']
+    print("this is google at route:{}".format(google))
+    return "this is google at route:{}".format(google)
 
 @auth_goog.route('/goog')
 def login():
-    print("this is google:{}".format(google))
+    google = current_app.config['google']
     if current_user.is_authenticated:
         return redirect('http://127.0.0.1:5000/')
     else:
@@ -44,6 +31,7 @@ def login():
 
 @auth_goog.route('/auth')
 def auth():
+    google = current_app.config['google']
     resp = google.authorized_response()
     if resp is None:
         return 'Access denied: reason=%s error=%s' % (
@@ -71,7 +59,7 @@ def logout():
 
 
 
-''''''
+'''
 @auth_goog.route('/', methods=['POST'])
 def login():
     token = request.json.get('id_token')
@@ -99,4 +87,4 @@ def login():
     except ValueError:
         # Invalid token
         return 'Invalid token', 400
-    '''
+ '''
