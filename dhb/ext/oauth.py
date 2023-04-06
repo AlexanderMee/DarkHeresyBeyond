@@ -30,4 +30,3 @@ def init_app(app):
     print("this is google:{}".format(google))
 
     return google
-'''
