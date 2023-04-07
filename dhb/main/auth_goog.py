@@ -1,12 +1,10 @@
-from flask import Blueprint, redirect, url_for, current_app
-from google.oauth2 import id_token
-from google.auth.transport import requests
+from flask import Blueprint, redirect, url_for, current_app, request
+from flask_login import current_user, login_user, logout_user
+from authlib.integrations.flask_client import OAuth
 
-
-from ..ext import db
 from ..ext import oauth
-from ..ext.oauth import google
-from ..ext.loginManager import login_manager, current_user
+from ..ext.db import db
+from ..ext.loginManager import login_manager
 from ..models import User
 
 auth_goog = Blueprint('auth_goog', __name__)
@@ -19,6 +17,10 @@ def load_user(user_id):
 def test2():
     google = current_app.config['google']
     print("this is google at route:{}".format(google))
+    print("this is dir google at route:{}".format(dir(google)))
+    print("this is google type at route:{}".format(type(google)))
+    print("this is google tokens at route:{}".format(google.access_token_params))
+    
     return "this is google at route:{}".format(google)
 
 @auth_goog.route('/goog')
@@ -27,12 +29,47 @@ def login():
     if current_user.is_authenticated:
         return redirect('http://127.0.0.1:5000/')
     else:
-        return google.authorize(callback='http://127.0.0.1:5000/auth')
-
+        redirect_uri = url_for('auth_goog.auth', _external=True)
+        return google.authorize_redirect(redirect_uri)
+    
 @auth_goog.route('/auth')
 def auth():
     google = current_app.config['google']
-    resp = google.authorized_response()
+    token = google.authorize_access_token()
+    resp = google.get('userinfo', token=token)
+    user_info = resp.json()
+
+    user_id = user_info['id']
+    user_name = user_info['name']
+    user_email = user_info['email']
+    user_profile_pic = user_info['picture']
+
+    user = User.get(user_id)
+
+    if not user:
+        user = User.create(
+            id_=user_info["id"],
+            name=user_info["name"],
+            email=user_info["email"],
+            profile_pic=user_info["picture"],
+        )
+
+    login_user(user)
+    return redirect('/')
+
+@auth_goog.route('/logout')
+def logout():
+    logout_user()
+    return redirect('/')
+
+
+
+    
+    
+    
+'''    
+    resp = google.authorized_response(grant_type='authorization_code')
+
     if resp is None:
         return 'Access denied: reason=%s error=%s' % (
             request.args['error_reason'],
@@ -54,37 +91,4 @@ def auth():
 @auth_goog.route('/logout')
 def logout():
     logout_user()
-    return redirect('/')
-
-
-
-
-'''
-@auth_goog.route('/', methods=['POST'])
-def login():
-    token = request.json.get('id_token')
-    try:
-        # Verify and decode the Google Sign-In ID token
-        info = id_token.verify_oauth2_token(token, requests.Request())
-        user_id = info['sub']
-        name = info['name']
-        email = info['email']
-        picture = info['picture']
-
-        # Check if the user already exists in the database
-        user = User.get(user_id)
-
-        if not user:
-            # Create a new user if they don't exist
-            User.create(user_id, name, email, picture)
-
-        # Log the user in using Flask-Login
-        user = User.get(user_id)
-        login_user(user)
-
-        return redirect('/')
-    
-    except ValueError:
-        # Invalid token
-        return 'Invalid token', 400
- '''
+    return redirect('/')'''

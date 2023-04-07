@@ -9,13 +9,6 @@ def init_app(app):
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     #move these to config file once we start working with multiple dbs
     
-    # Import your SQLAlchemy models into the Flask app
-    from ..models import User
-
     #initialise app
     db.init_app(app)
-
-    # Create the database tables (must go after app is initalised!)
-    with app.app_context():
-        db.create_all()
 
