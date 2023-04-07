@@ -3,6 +3,7 @@ from flask import Flask
 
 #Extentions, each extention should have its own file in extentions folder
 from .config import config 
+#from .ext.db import db
 from .ext import db, loginManager, oauth
 from .ext.oauth import google
 from .main.auth_goog import auth_goog
@@ -20,6 +21,11 @@ def create_app():
 
     #database setup
     db.init_app(app)
+    #import model
+    from .models import User
+    #create db tables
+    with app.app_context():
+        db.db.create_all()
 
     #google config
     google = oauth.init_app(app)
@@ -37,6 +43,7 @@ def create_app():
     app.register_blueprint(auth_goog)
     app.register_blueprint(wait)
         
+
     #app.config['SQLALCHEMY_DATABASE_URI'] = 'sqllite:///db.sqllite3'
 
     return app
