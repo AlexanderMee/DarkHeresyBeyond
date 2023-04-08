@@ -3,11 +3,10 @@ from flask import Flask
 
 #Extentions, each extention should have its own file in extentions folder
 from .config import config 
-from .ext import db, loginManager, oauth
+from .ext import db, loginManager, oauth, bootstrap, wtf
 from .main.auth_goog import auth_goog
-from .main.wait import wait
 from .main.index import index
-from .main.test import test
+from .main.characters import characters_bp
 
 
 #create_app is a custom function, by convention called create_app, it initalises flask, extentions, config, blueprints, the order is important!
@@ -32,12 +31,12 @@ def create_app():
   
     #other extentions
     loginManager.init_app(app)
-    #oauth.init_app(app)
+    bootstrap.init_app(app)
+    #wtf.init_app(app)
 
     #blueprints
-    app.register_blueprint(index)
-    app.register_blueprint(test)       
+    app.register_blueprint(index)  
     app.register_blueprint(auth_goog)
-    app.register_blueprint(wait)
+    app.register_blueprint(characters_bp)
 
     return app

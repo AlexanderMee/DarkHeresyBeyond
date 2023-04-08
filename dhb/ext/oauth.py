@@ -1,9 +1,8 @@
-#from flask_oauthlib.client import OAuth
 from authlib.integrations.flask_client import OAuth
 
 oauth = OAuth()
 
-google = None
+google = None #ok google needs to exist before it is imported by the factory, but its values are determined by config, whcih changes
 
 def init_app(app):
 

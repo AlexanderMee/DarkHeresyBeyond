@@ -1,0 +1,2312 @@
+{
+  "build": "py311haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "cryptography >=2.6",
+    "idna >=2.1",
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\mrale\\anaconda3\\pkgs\\dnspython-2.2.1-py311haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/dns/__init__.py",
+    "Lib/site-packages/dns/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/_asyncbackend.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/_asyncio_backend.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/_curio_backend.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/_immutable_attr.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/_immutable_ctx.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/_trio_backend.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/asyncbackend.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/asyncquery.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/asyncresolver.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/dnssec.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/e164.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/edns.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/entropy.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/enum.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/exception.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/flags.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/grange.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/immutable.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/inet.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/ipv4.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/ipv6.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/message.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/name.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/namedict.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/node.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/opcode.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/query.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/rcode.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/rdata.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/rdataclass.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/rdataset.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/rdatatype.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/renderer.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/resolver.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/reversename.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/rrset.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/serial.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/set.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/tokenizer.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/transaction.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/tsig.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/tsigkeyring.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/ttl.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/update.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/version.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/versioned.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/win32util.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/wire.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/xfr.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/zone.cpython-311.pyc",
+    "Lib/site-packages/dns/__pycache__/zonefile.cpython-311.pyc",
+    "Lib/site-packages/dns/_asyncbackend.py",
+    "Lib/site-packages/dns/_asyncio_backend.py",
+    "Lib/site-packages/dns/_curio_backend.py",
+    "Lib/site-packages/dns/_immutable_attr.py",
+    "Lib/site-packages/dns/_immutable_ctx.py",
+    "Lib/site-packages/dns/_trio_backend.py",
+    "Lib/site-packages/dns/asyncbackend.py",
+    "Lib/site-packages/dns/asyncbackend.pyi",
+    "Lib/site-packages/dns/asyncquery.py",
+    "Lib/site-packages/dns/asyncquery.pyi",
+    "Lib/site-packages/dns/asyncresolver.py",
+    "Lib/site-packages/dns/asyncresolver.pyi",
+    "Lib/site-packages/dns/dnssec.py",
+    "Lib/site-packages/dns/dnssec.pyi",
+    "Lib/site-packages/dns/e164.py",
+    "Lib/site-packages/dns/e164.pyi",
+    "Lib/site-packages/dns/edns.py",
+    "Lib/site-packages/dns/entropy.py",
+    "Lib/site-packages/dns/entropy.pyi",
+    "Lib/site-packages/dns/enum.py",
+    "Lib/site-packages/dns/exception.py",
+    "Lib/site-packages/dns/exception.pyi",
+    "Lib/site-packages/dns/flags.py",
+    "Lib/site-packages/dns/grange.py",
+    "Lib/site-packages/dns/immutable.py",
+    "Lib/site-packages/dns/inet.py",
+    "Lib/site-packages/dns/inet.pyi",
+    "Lib/site-packages/dns/ipv4.py",
+    "Lib/site-packages/dns/ipv6.py",
+    "Lib/site-packages/dns/message.py",
+    "Lib/site-packages/dns/message.pyi",
+    "Lib/site-packages/dns/name.py",
+    "Lib/site-packages/dns/name.pyi",
+    "Lib/site-packages/dns/namedict.py",
+    "Lib/site-packages/dns/node.py",
+    "Lib/site-packages/dns/node.pyi",
+    "Lib/site-packages/dns/opcode.py",
+    "Lib/site-packages/dns/py.typed",
+    "Lib/site-packages/dns/query.py",
+    "Lib/site-packages/dns/query.pyi",
+    "Lib/site-packages/dns/rcode.py",
+    "Lib/site-packages/dns/rdata.py",
+    "Lib/site-packages/dns/rdata.pyi",
+    "Lib/site-packages/dns/rdataclass.py",
+    "Lib/site-packages/dns/rdataset.py",
+    "Lib/site-packages/dns/rdataset.pyi",
+    "Lib/site-packages/dns/rdatatype.py",
+    "Lib/site-packages/dns/rdtypes/ANY/AFSDB.py",
+    "Lib/site-packages/dns/rdtypes/ANY/AMTRELAY.py",
+    "Lib/site-packages/dns/rdtypes/ANY/AVC.py",
+    "Lib/site-packages/dns/rdtypes/ANY/CAA.py",
+    "Lib/site-packages/dns/rdtypes/ANY/CDNSKEY.py",
+    "Lib/site-packages/dns/rdtypes/ANY/CDS.py",
+    "Lib/site-packages/dns/rdtypes/ANY/CERT.py",
+    "Lib/site-packages/dns/rdtypes/ANY/CNAME.py",
+    "Lib/site-packages/dns/rdtypes/ANY/CSYNC.py",
+    "Lib/site-packages/dns/rdtypes/ANY/DLV.py",
+    "Lib/site-packages/dns/rdtypes/ANY/DNAME.py",
+    "Lib/site-packages/dns/rdtypes/ANY/DNSKEY.py",
+    "Lib/site-packages/dns/rdtypes/ANY/DS.py",
+    "Lib/site-packages/dns/rdtypes/ANY/EUI48.py",
+    "Lib/site-packages/dns/rdtypes/ANY/EUI64.py",
+    "Lib/site-packages/dns/rdtypes/ANY/GPOS.py",
+    "Lib/site-packages/dns/rdtypes/ANY/HINFO.py",
+    "Lib/site-packages/dns/rdtypes/ANY/HIP.py",
+    "Lib/site-packages/dns/rdtypes/ANY/ISDN.py",
+    "Lib/site-packages/dns/rdtypes/ANY/L32.py",
+    "Lib/site-packages/dns/rdtypes/ANY/L64.py",
+    "Lib/site-packages/dns/rdtypes/ANY/LOC.py",
+    "Lib/site-packages/dns/rdtypes/ANY/LP.py",
+    "Lib/site-packages/dns/rdtypes/ANY/MX.py",
+    "Lib/site-packages/dns/rdtypes/ANY/NID.py",
+    "Lib/site-packages/dns/rdtypes/ANY/NINFO.py",
+    "Lib/site-packages/dns/rdtypes/ANY/NS.py",
+    "Lib/site-packages/dns/rdtypes/ANY/NSEC.py",
+    "Lib/site-packages/dns/rdtypes/ANY/NSEC3.py",
+    "Lib/site-packages/dns/rdtypes/ANY/NSEC3PARAM.py",
+    "Lib/site-packages/dns/rdtypes/ANY/OPENPGPKEY.py",
+    "Lib/site-packages/dns/rdtypes/ANY/OPT.py",
+    "Lib/site-packages/dns/rdtypes/ANY/PTR.py",
+    "Lib/site-packages/dns/rdtypes/ANY/RP.py",
+    "Lib/site-packages/dns/rdtypes/ANY/RRSIG.py",
+    "Lib/site-packages/dns/rdtypes/ANY/RT.py",
+    "Lib/site-packages/dns/rdtypes/ANY/SMIMEA.py",
+    "Lib/site-packages/dns/rdtypes/ANY/SOA.py",
+    "Lib/site-packages/dns/rdtypes/ANY/SPF.py",
+    "Lib/site-packages/dns/rdtypes/ANY/SSHFP.py",
+    "Lib/site-packages/dns/rdtypes/ANY/TKEY.py",
+    "Lib/site-packages/dns/rdtypes/ANY/TLSA.py",
+    "Lib/site-packages/dns/rdtypes/ANY/TSIG.py",
+    "Lib/site-packages/dns/rdtypes/ANY/TXT.py",
+    "Lib/site-packages/dns/rdtypes/ANY/URI.py",
+    "Lib/site-packages/dns/rdtypes/ANY/X25.py",
+    "Lib/site-packages/dns/rdtypes/ANY/ZONEMD.py",
+    "Lib/site-packages/dns/rdtypes/ANY/__init__.py",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/AFSDB.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/AMTRELAY.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/AVC.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/CAA.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/CDNSKEY.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/CDS.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/CERT.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/CNAME.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/CSYNC.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/DLV.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/DNAME.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/DNSKEY.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/DS.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/EUI48.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/EUI64.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/GPOS.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/HINFO.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/HIP.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/ISDN.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/L32.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/L64.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/LOC.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/LP.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/MX.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/NID.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/NINFO.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/NS.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/NSEC.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/NSEC3.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/NSEC3PARAM.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/OPENPGPKEY.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/OPT.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/PTR.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/RP.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/RRSIG.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/RT.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/SMIMEA.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/SOA.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/SPF.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/SSHFP.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/TKEY.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/TLSA.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/TSIG.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/TXT.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/URI.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/X25.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/ZONEMD.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/ANY/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/CH/A.py",
+    "Lib/site-packages/dns/rdtypes/CH/__init__.py",
+    "Lib/site-packages/dns/rdtypes/CH/__pycache__/A.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/CH/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/A.py",
+    "Lib/site-packages/dns/rdtypes/IN/AAAA.py",
+    "Lib/site-packages/dns/rdtypes/IN/APL.py",
+    "Lib/site-packages/dns/rdtypes/IN/DHCID.py",
+    "Lib/site-packages/dns/rdtypes/IN/HTTPS.py",
+    "Lib/site-packages/dns/rdtypes/IN/IPSECKEY.py",
+    "Lib/site-packages/dns/rdtypes/IN/KX.py",
+    "Lib/site-packages/dns/rdtypes/IN/NAPTR.py",
+    "Lib/site-packages/dns/rdtypes/IN/NSAP.py",
+    "Lib/site-packages/dns/rdtypes/IN/NSAP_PTR.py",
+    "Lib/site-packages/dns/rdtypes/IN/PX.py",
+    "Lib/site-packages/dns/rdtypes/IN/SRV.py",
+    "Lib/site-packages/dns/rdtypes/IN/SVCB.py",
+    "Lib/site-packages/dns/rdtypes/IN/WKS.py",
+    "Lib/site-packages/dns/rdtypes/IN/__init__.py",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/A.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/AAAA.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/APL.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/DHCID.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/HTTPS.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/IPSECKEY.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/KX.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/NAPTR.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/NSAP.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/NSAP_PTR.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/PX.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/SRV.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/SVCB.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/WKS.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/IN/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/__init__.py",
+    "Lib/site-packages/dns/rdtypes/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/__pycache__/dnskeybase.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/__pycache__/dsbase.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/__pycache__/euibase.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/__pycache__/mxbase.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/__pycache__/nsbase.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/__pycache__/svcbbase.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/__pycache__/tlsabase.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/__pycache__/txtbase.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/__pycache__/util.cpython-311.pyc",
+    "Lib/site-packages/dns/rdtypes/dnskeybase.py",
+    "Lib/site-packages/dns/rdtypes/dnskeybase.pyi",
+    "Lib/site-packages/dns/rdtypes/dsbase.py",
+    "Lib/site-packages/dns/rdtypes/euibase.py",
+    "Lib/site-packages/dns/rdtypes/mxbase.py",
+    "Lib/site-packages/dns/rdtypes/nsbase.py",
+    "Lib/site-packages/dns/rdtypes/svcbbase.py",
+    "Lib/site-packages/dns/rdtypes/tlsabase.py",
+    "Lib/site-packages/dns/rdtypes/txtbase.py",
+    "Lib/site-packages/dns/rdtypes/txtbase.pyi",
+    "Lib/site-packages/dns/rdtypes/util.py",
+    "Lib/site-packages/dns/renderer.py",
+    "Lib/site-packages/dns/resolver.py",
+    "Lib/site-packages/dns/resolver.pyi",
+    "Lib/site-packages/dns/reversename.py",
+    "Lib/site-packages/dns/reversename.pyi",
+    "Lib/site-packages/dns/rrset.py",
+    "Lib/site-packages/dns/rrset.pyi",
+    "Lib/site-packages/dns/serial.py",
+    "Lib/site-packages/dns/set.py",
+    "Lib/site-packages/dns/tokenizer.py",
+    "Lib/site-packages/dns/transaction.py",
+    "Lib/site-packages/dns/tsig.py",
+    "Lib/site-packages/dns/tsigkeyring.py",
+    "Lib/site-packages/dns/tsigkeyring.pyi",
+    "Lib/site-packages/dns/ttl.py",
+    "Lib/site-packages/dns/update.py",
+    "Lib/site-packages/dns/update.pyi",
+    "Lib/site-packages/dns/version.py",
+    "Lib/site-packages/dns/versioned.py",
+    "Lib/site-packages/dns/win32util.py",
+    "Lib/site-packages/dns/wire.py",
+    "Lib/site-packages/dns/xfr.py",
+    "Lib/site-packages/dns/zone.py",
+    "Lib/site-packages/dns/zone.pyi",
+    "Lib/site-packages/dns/zonefile.py",
+    "Lib/site-packages/dnspython-2.2.1.dist-info/INSTALLER",
+    "Lib/site-packages/dnspython-2.2.1.dist-info/LICENSE",
+    "Lib/site-packages/dnspython-2.2.1.dist-info/METADATA",
+    "Lib/site-packages/dnspython-2.2.1.dist-info/RECORD",
+    "Lib/site-packages/dnspython-2.2.1.dist-info/REQUESTED",
+    "Lib/site-packages/dnspython-2.2.1.dist-info/WHEEL",
+    "Lib/site-packages/dnspython-2.2.1.dist-info/direct_url.json",
+    ".nonadmin"
+  ],
+  "fn": "dnspython-2.2.1-py311haa95532_0.conda",
+  "legacy_bz2_md5": "ed497c51dbd2b0b059f8d551827a235c",
+  "license": "ISC",
+  "license_family": "OTHER",
+  "link": {
+    "source": "C:\\Users\\mrale\\anaconda3\\pkgs\\dnspython-2.2.1-py311haa95532_0",
+    "type": 1
+  },
+  "md5": "df1a5242322cea20fc33d9edbd736cdd",
+  "name": "dnspython",
+  "package_tarball_full_path": "C:\\Users\\mrale\\anaconda3\\pkgs\\dnspython-2.2.1-py311haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/dns/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4e7bf1bad7f6138842bb644c53b0039a2567a8e8a4496c6009c489f71b91fafe",
+        "sha256_in_prefix": "4e7bf1bad7f6138842bb644c53b0039a2567a8e8a4496c6009c489f71b91fafe",
+        "size_in_bytes": 1597
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "da505daa2e87ff12afb033e93ca1d96fa0ed33515eb84af246dac5904a368390",
+        "sha256_in_prefix": "da505daa2e87ff12afb033e93ca1d96fa0ed33515eb84af246dac5904a368390",
+        "size_in_bytes": 666
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/_asyncbackend.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "66546715cf5807f564ae0a1559e9da34ff794821e7779850a745fddb13dcc4b1",
+        "sha256_in_prefix": "66546715cf5807f564ae0a1559e9da34ff794821e7779850a745fddb13dcc4b1",
+        "size_in_bytes": 4014
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/_asyncio_backend.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "6670f1973d2bdb1e6561a44fee9b53cd12415c7f9a52cb550ecf997166433c1e",
+        "sha256_in_prefix": "6670f1973d2bdb1e6561a44fee9b53cd12415c7f9a52cb550ecf997166433c1e",
+        "size_in_bytes": 9329
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/_curio_backend.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "640e2a7f17cd3511bfceb75864168120198e8c225f61abaceae848406099574a",
+        "sha256_in_prefix": "640e2a7f17cd3511bfceb75864168120198e8c225f61abaceae848406099574a",
+        "size_in_bytes": 7803
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/_immutable_attr.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3eb1ed39515b9ecba9770da44dbeb1b04b543f39508423b5c770dbd8b538509",
+        "sha256_in_prefix": "a3eb1ed39515b9ecba9770da44dbeb1b04b543f39508423b5c770dbd8b538509",
+        "size_in_bytes": 3899
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/_immutable_ctx.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "6104a19b6e0c03e16766053a9803e28522735d07f1a98b8bd9eb8ad156e06a23",
+        "sha256_in_prefix": "6104a19b6e0c03e16766053a9803e28522735d07f1a98b8bd9eb8ad156e06a23",
+        "size_in_bytes": 3788
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/_trio_backend.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d89e6454f31581d09e0b8c5a8f3000d6e451cfbe00e510e0abb21e4ce1b14503",
+        "sha256_in_prefix": "d89e6454f31581d09e0b8c5a8f3000d6e451cfbe00e510e0abb21e4ce1b14503",
+        "size_in_bytes": 7825
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/asyncbackend.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b054de49bb80f8db691e6b66f4c0e7a1b7afa85f82c07d86d48af7c8a5b0185a",
+        "sha256_in_prefix": "b054de49bb80f8db691e6b66f4c0e7a1b7afa85f82c07d86d48af7c8a5b0185a",
+        "size_in_bytes": 3928
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/asyncquery.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4490d752a060d9b0315aa2fea45364a71f70ba3999a87b3513bd4a6dd382c32",
+        "sha256_in_prefix": "b4490d752a060d9b0315aa2fea45364a71f70ba3999a87b3513bd4a6dd382c32",
+        "size_in_bytes": 23157
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/asyncresolver.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a22d090a081e1c2e443e0f81093ce3232ceeae37cbcfdf16580746c13c6064bd",
+        "sha256_in_prefix": "a22d090a081e1c2e443e0f81093ce3232ceeae37cbcfdf16580746c13c6064bd",
+        "size_in_bytes": 9141
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/dnssec.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "691490a13e2b3b21386b33c901a19ce2689a7ebabd7494cb85c27409ba701078",
+        "sha256_in_prefix": "691490a13e2b3b21386b33c901a19ce2689a7ebabd7494cb85c27409ba701078",
+        "size_in_bytes": 26427
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/e164.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b564335190995fe7d12dee6684a67cf07814500d048bb74946aa2d9cd650e619",
+        "sha256_in_prefix": "b564335190995fe7d12dee6684a67cf07814500d048bb74946aa2d9cd650e619",
+        "size_in_bytes": 4591
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/edns.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a30dd5480a2e59f102f4a4ca5638733c1773416920d18bec245aa4a69d3e5ad",
+        "sha256_in_prefix": "2a30dd5480a2e59f102f4a4ca5638733c1773416920d18bec245aa4a69d3e5ad",
+        "size_in_bytes": 19436
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/entropy.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "148cbf6599afa01fc0e0924bf1b6d4fc1e75bcbe0f0d5f2f91579941be9f9d10",
+        "sha256_in_prefix": "148cbf6599afa01fc0e0924bf1b6d4fc1e75bcbe0f0d5f2f91579941be9f9d10",
+        "size_in_bytes": 6328
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/enum.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "54967c880fd2a23558568a70ba9bb85af2bd9a0665c50d69fbab6466ebcb8fef",
+        "sha256_in_prefix": "54967c880fd2a23558568a70ba9bb85af2bd9a0665c50d69fbab6466ebcb8fef",
+        "size_in_bytes": 4047
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/exception.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b16267134f599bef361cc397d2fd0939ff89b34f96d09196422cc1bf8b28af70",
+        "sha256_in_prefix": "b16267134f599bef361cc397d2fd0939ff89b34f96d09196422cc1bf8b28af70",
+        "size_in_bytes": 6837
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/flags.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe50f92996f86ff4abbbfa81f08cc9843cb51e5d22a3139ff4150a4b142681bd",
+        "sha256_in_prefix": "fe50f92996f86ff4abbbfa81f08cc9843cb51e5d22a3139ff4150a4b142681bd",
+        "size_in_bytes": 2948
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/grange.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "3eded0846ab9f691cde50356ea88dd9ab53e860c1d75792ef591ad74133bd143",
+        "sha256_in_prefix": "3eded0846ab9f691cde50356ea88dd9ab53e860c1d75792ef591ad74133bd143",
+        "size_in_bytes": 1798
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/immutable.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "274d8252cdcc07f29ca591c6701d241d8acc5c82244e6dec194cfc8e1572a776",
+        "sha256_in_prefix": "274d8252cdcc07f29ca591c6701d241d8acc5c82244e6dec194cfc8e1572a776",
+        "size_in_bytes": 3945
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/inet.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7486874e3f71d9ca7cd07509fba0e215fa9552cbbf402716358e4977e693b9f8",
+        "sha256_in_prefix": "7486874e3f71d9ca7cd07509fba0e215fa9552cbbf402716358e4977e693b9f8",
+        "size_in_bytes": 5611
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/ipv4.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "355b7d383c9c19981a6c4e53891c47c484fa214e5facf14f2ff32d258551764f",
+        "sha256_in_prefix": "355b7d383c9c19981a6c4e53891c47c484fa214e5facf14f2ff32d258551764f",
+        "size_in_bytes": 2172
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/ipv6.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ed74475cad4837e55a2448ddcf84d239e9261d67613320509bb5ca3cf9b7174",
+        "sha256_in_prefix": "4ed74475cad4837e55a2448ddcf84d239e9261d67613320509bb5ca3cf9b7174",
+        "size_in_bytes": 6540
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/message.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa22f25a9fac43c55063ec6d8363b5881baad53b1a0b18b5003216f3e3c270f8",
+        "sha256_in_prefix": "aa22f25a9fac43c55063ec6d8363b5881baad53b1a0b18b5003216f3e3c270f8",
+        "size_in_bytes": 70537
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/name.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d21754795e9ed849f3409f2e39201876673d30070f24ee2e7613f47c3cf8edfe",
+        "sha256_in_prefix": "d21754795e9ed849f3409f2e39201876673d30070f24ee2e7613f47c3cf8edfe",
+        "size_in_bytes": 43387
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/namedict.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "30f4256ca107f12f15fa72d7620f5b7f8f829fb25a164ab0fb40b8796daf6c7a",
+        "sha256_in_prefix": "30f4256ca107f12f15fa72d7620f5b7f8f829fb25a164ab0fb40b8796daf6c7a",
+        "size_in_bytes": 4641
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/node.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "69904712622418363ccd25e46877561ad9c148d4e5325b40b6fe15bffaf957fb",
+        "sha256_in_prefix": "69904712622418363ccd25e46877561ad9c148d4e5325b40b6fe15bffaf957fb",
+        "size_in_bytes": 15136
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/opcode.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f82778e3b03185fc62439df1dcd5e2c1cbdd31a497baf52b9af5cd103e7b587",
+        "sha256_in_prefix": "2f82778e3b03185fc62439df1dcd5e2c1cbdd31a497baf52b9af5cd103e7b587",
+        "size_in_bytes": 3038
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/query.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b309a78d6b494273f9ea64d286dfb796515939253a56be5d793a4ee57f37b27",
+        "sha256_in_prefix": "4b309a78d6b494273f9ea64d286dfb796515939253a56be5d793a4ee57f37b27",
+        "size_in_bytes": 47496
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/rcode.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7831ce4abac756b64f1cae20ccce7af7c300c101ee84a2e9c5816843acb02f71",
+        "sha256_in_prefix": "7831ce4abac756b64f1cae20ccce7af7c300c101ee84a2e9c5816843acb02f71",
+        "size_in_bytes": 4029
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/rdata.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b32bbef0424f4f9644b1e30dbe0d1ae15451e119d8329d10e7821ad6bafb3e9",
+        "sha256_in_prefix": "1b32bbef0424f4f9644b1e30dbe0d1ae15451e119d8329d10e7821ad6bafb3e9",
+        "size_in_bytes": 36974
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/rdataclass.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4af21c5babb300c7b509ce222f6d8d5e7ff10acc3e304a946b742e65a0f14119",
+        "sha256_in_prefix": "4af21c5babb300c7b509ce222f6d8d5e7ff10acc3e304a946b742e65a0f14119",
+        "size_in_bytes": 3413
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/rdataset.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c7e6595ecd15f0758f2ccc71076d00ad5ab0f94fcfba03a353721d3e7c6fb357",
+        "sha256_in_prefix": "c7e6595ecd15f0758f2ccc71076d00ad5ab0f94fcfba03a353721d3e7c6fb357",
+        "size_in_bytes": 21933
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/rdatatype.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4fa6d127251221ed59552e7d92dbce48bd4d4d02cea499635e290fd28e01e38f",
+        "sha256_in_prefix": "4fa6d127251221ed59552e7d92dbce48bd4d4d02cea499635e290fd28e01e38f",
+        "size_in_bytes": 8708
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/renderer.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b389fb8ae3b5a22c5bb35cc8e2b269a5c4a9523809a0b7ee53e5827ed8deab30",
+        "sha256_in_prefix": "b389fb8ae3b5a22c5bb35cc8e2b269a5c4a9523809a0b7ee53e5827ed8deab30",
+        "size_in_bytes": 13123
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/resolver.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "22a42b3ada1c36adbd839d704940dedd62ca4d1ee83a76780ab83da1dabf68b6",
+        "sha256_in_prefix": "22a42b3ada1c36adbd839d704940dedd62ca4d1ee83a76780ab83da1dabf68b6",
+        "size_in_bytes": 70861
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/reversename.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b0b058112bbdba372b2e80e7e78e1d799f394646e98fa00706c11e9e89971154",
+        "sha256_in_prefix": "b0b058112bbdba372b2e80e7e78e1d799f394646e98fa00706c11e9e89971154",
+        "size_in_bytes": 4919
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/rrset.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2ef83843a97be394a0e80169adbe2bd05bdd5003dab3495b31988b07d181f75",
+        "sha256_in_prefix": "e2ef83843a97be394a0e80169adbe2bd05bdd5003dab3495b31988b07d181f75",
+        "size_in_bytes": 10062
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/serial.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e136cf3a8971a688297cb41056dc831511cabfd682dfef76e1fb12444aa8569",
+        "sha256_in_prefix": "8e136cf3a8971a688297cb41056dc831511cabfd682dfef76e1fb12444aa8569",
+        "size_in_bytes": 5141
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/set.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c42ea57578d35e84a6f66bb849ece98f0f52f193c1777ec9e90e840ee89ad7e1",
+        "sha256_in_prefix": "c42ea57578d35e84a6f66bb849ece98f0f52f193c1777ec9e90e840ee89ad7e1",
+        "size_in_bytes": 11748
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/tokenizer.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a263f21cf3753d4a224ee3ef2dadfafddca2c1dba985f7a90eca0b9d22d8b7d4",
+        "sha256_in_prefix": "a263f21cf3753d4a224ee3ef2dadfafddca2c1dba985f7a90eca0b9d22d8b7d4",
+        "size_in_bytes": 26216
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/transaction.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "54381ccad959207013493b17d508314b8ae3229d8bfc8c9b91f3e06a53c2dbd8",
+        "sha256_in_prefix": "54381ccad959207013493b17d508314b8ae3229d8bfc8c9b91f3e06a53c2dbd8",
+        "size_in_bytes": 27765
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/tsig.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "399e76a6a88f3def2a144b4b39503de76ece51109b5e138f768b0c82db395c32",
+        "sha256_in_prefix": "399e76a6a88f3def2a144b4b39503de76ece51109b5e138f768b0c82db395c32",
+        "size_in_bytes": 17482
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/tsigkeyring.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc06c4f25bf082fd1b48aff3ed93f8fd98640335d1864a5317c610d62bacbc19",
+        "sha256_in_prefix": "bc06c4f25bf082fd1b48aff3ed93f8fd98640335d1864a5317c610d62bacbc19",
+        "size_in_bytes": 2638
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/ttl.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d423d83bf627b2a2e977a3039425a137cbaeb034ab00e5e09eefb1dff59be6b8",
+        "sha256_in_prefix": "d423d83bf627b2a2e977a3039425a137cbaeb034ab00e5e09eefb1dff59be6b8",
+        "size_in_bytes": 2579
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/update.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c309caa0d784ff0031c3fcd1dc8b6e55bd5fe7491052e75c77dd366162343a09",
+        "sha256_in_prefix": "c309caa0d784ff0031c3fcd1dc8b6e55bd5fe7491052e75c77dd366162343a09",
+        "size_in_bytes": 14756
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/version.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7d2af967eeffe3c2fc8cdc2d5f1affe57aa26a29037a9953d5689c4357e7a61",
+        "sha256_in_prefix": "b7d2af967eeffe3c2fc8cdc2d5f1affe57aa26a29037a9953d5689c4357e7a61",
+        "size_in_bytes": 747
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/versioned.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e1ae38a86e5e9833131229a9a47764035f73c367bf04a0ddf61a40b900637c41",
+        "sha256_in_prefix": "e1ae38a86e5e9833131229a9a47764035f73c367bf04a0ddf61a40b900637c41",
+        "size_in_bytes": 13736
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/win32util.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "dfa670e820ba8c0747aafa00adeeabef5b8cb5de57187a857f433be8111a6a5c",
+        "sha256_in_prefix": "dfa670e820ba8c0747aafa00adeeabef5b8cb5de57187a857f433be8111a6a5c",
+        "size_in_bytes": 10925
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/wire.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "af894f82a8782ce05b21b640c1b545df78f4382343d9019aa8fd8752c89da3e1",
+        "sha256_in_prefix": "af894f82a8782ce05b21b640c1b545df78f4382343d9019aa8fd8752c89da3e1",
+        "size_in_bytes": 5163
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/xfr.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3040c45c936c45d442c11f66ba1188c37ed66e4dbcbf98efba05a38c458d2a0",
+        "sha256_in_prefix": "e3040c45c936c45d442c11f66ba1188c37ed66e4dbcbf98efba05a38c458d2a0",
+        "size_in_bytes": 12803
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/zone.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "945432d348811b67cb56af8106647db843d8e217ae1ef3826b8883af27831a2e",
+        "sha256_in_prefix": "945432d348811b67cb56af8106647db843d8e217ae1ef3826b8883af27831a2e",
+        "size_in_bytes": 59562
+      },
+      {
+        "_path": "Lib/site-packages/dns/__pycache__/zonefile.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b6c920d57de5584a605cf00fe48a5c6dfc308e96339d14d2abbec3ae27829135",
+        "sha256_in_prefix": "b6c920d57de5584a605cf00fe48a5c6dfc308e96339d14d2abbec3ae27829135",
+        "size_in_bytes": 29435
+      },
+      {
+        "_path": "Lib/site-packages/dns/_asyncbackend.py",
+        "path_type": "hardlink",
+        "sha256": "044fc4d497151858f089e6d7ed826aa9663c62f2ad14fbf75a10bb2807608759",
+        "sha256_in_prefix": "044fc4d497151858f089e6d7ed826aa9663c62f2ad14fbf75a10bb2807608759",
+        "size_in_bytes": 1836
+      },
+      {
+        "_path": "Lib/site-packages/dns/_asyncio_backend.py",
+        "path_type": "hardlink",
+        "sha256": "c44033f981bae4f94a1ccf6a066fd6725238ba2c7252cae9eeeedc1d2581e2d7",
+        "sha256_in_prefix": "c44033f981bae4f94a1ccf6a066fd6725238ba2c7252cae9eeeedc1d2581e2d7",
+        "size_in_bytes": 4897
+      },
+      {
+        "_path": "Lib/site-packages/dns/_curio_backend.py",
+        "path_type": "hardlink",
+        "sha256": "a9ab97fa193e844ed9dbb9469853cfdbde500b4ce455e37f5a9ef37e0dc640b0",
+        "sha256_in_prefix": "a9ab97fa193e844ed9dbb9469853cfdbde500b4ce455e37f5a9ef37e0dc640b0",
+        "size_in_bytes": 3411
+      },
+      {
+        "_path": "Lib/site-packages/dns/_immutable_attr.py",
+        "path_type": "hardlink",
+        "sha256": "68963f3f7d44dab367ae29fe7a0869b8a677b0c718b168571b93559b59b31ac6",
+        "sha256_in_prefix": "68963f3f7d44dab367ae29fe7a0869b8a677b0c718b168571b93559b59b31ac6",
+        "size_in_bytes": 2990
+      },
+      {
+        "_path": "Lib/site-packages/dns/_immutable_ctx.py",
+        "path_type": "hardlink",
+        "sha256": "67c0d0902bd8907882c835104e64b5091a25b00ddbd0fe507e4166f269b89863",
+        "sha256_in_prefix": "67c0d0902bd8907882c835104e64b5091a25b00ddbd0fe507e4166f269b89863",
+        "size_in_bytes": 2458
+      },
+      {
+        "_path": "Lib/site-packages/dns/_trio_backend.py",
+        "path_type": "hardlink",
+        "sha256": "e593bf956a661221665ca88dbb1b064289872c123a8dd729bd7b73c283cd8cf9",
+        "sha256_in_prefix": "e593bf956a661221665ca88dbb1b064289872c123a8dd729bd7b73c283cd8cf9",
+        "size_in_bytes": 3769
+      },
+      {
+        "_path": "Lib/site-packages/dns/asyncbackend.py",
+        "path_type": "hardlink",
+        "sha256": "35d814de8b01a5eb7f73ac6c4dd4d08cab15c111e0503a2d2c3969f58e1c006b",
+        "sha256_in_prefix": "35d814de8b01a5eb7f73ac6c4dd4d08cab15c111e0503a2d2c3969f58e1c006b",
+        "size_in_bytes": 3078
+      },
+      {
+        "_path": "Lib/site-packages/dns/asyncbackend.pyi",
+        "path_type": "hardlink",
+        "sha256": "c1f4675e57762191b99b82e06467f5ffb121897b1d5c546e74356a3dd598f4fb",
+        "sha256_in_prefix": "c1f4675e57762191b99b82e06467f5ffb121897b1d5c546e74356a3dd598f4fb",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "Lib/site-packages/dns/asyncquery.py",
+        "path_type": "hardlink",
+        "sha256": "8d19bb86ed3f05144628e40f7684a387d50bc120fcc97712f5afb6c7551ba85a",
+        "sha256_in_prefix": "8d19bb86ed3f05144628e40f7684a387d50bc120fcc97712f5afb6c7551ba85a",
+        "size_in_bytes": 21360
+      },
+      {
+        "_path": "Lib/site-packages/dns/asyncquery.pyi",
+        "path_type": "hardlink",
+        "sha256": "6b54d829dd56dc0cf2b068039cf7ae4a9da5555e57f30f7f8073d7af2c863a03",
+        "sha256_in_prefix": "6b54d829dd56dc0cf2b068039cf7ae4a9da5555e57f30f7f8073d7af2c863a03",
+        "size_in_bytes": 1873
+      },
+      {
+        "_path": "Lib/site-packages/dns/asyncresolver.py",
+        "path_type": "hardlink",
+        "sha256": "2e7ece628c941b05661509fc6edb007b2ebfa30d27bc25c4071afb92bd5a8b6b",
+        "sha256_in_prefix": "2e7ece628c941b05661509fc6edb007b2ebfa30d27bc25c4071afb92bd5a8b6b",
+        "size_in_bytes": 9109
+      },
+      {
+        "_path": "Lib/site-packages/dns/asyncresolver.pyi",
+        "path_type": "hardlink",
+        "sha256": "0fe672083a657053cbfe9fa75fe3d8462353b85bae028b4d0f2259e0ed7c2a00",
+        "sha256_in_prefix": "0fe672083a657053cbfe9fa75fe3d8462353b85bae028b4d0f2259e0ed7c2a00",
+        "size_in_bytes": 1254
+      },
+      {
+        "_path": "Lib/site-packages/dns/dnssec.py",
+        "path_type": "hardlink",
+        "sha256": "69c91f06dbaec9420f411abbf4f678eaf85c32faac84fc20760489d0c4036edd",
+        "sha256_in_prefix": "69c91f06dbaec9420f411abbf4f678eaf85c32faac84fc20760489d0c4036edd",
+        "size_in_bytes": 18573
+      },
+      {
+        "_path": "Lib/site-packages/dns/dnssec.pyi",
+        "path_type": "hardlink",
+        "sha256": "eeab4ad01d3a4749c404596c1fc197a38c5cab339840eccf8df2a451ac01a3ae",
+        "sha256_in_prefix": "eeab4ad01d3a4749c404596c1fc197a38c5cab339840eccf8df2a451ac01a3ae",
+        "size_in_bytes": 994
+      },
+      {
+        "_path": "Lib/site-packages/dns/e164.py",
+        "path_type": "hardlink",
+        "sha256": "9554313194ebbaa96fec52abb86a9a56384b89d37e375e60ff1bbccaa3d8396e",
+        "sha256_in_prefix": "9554313194ebbaa96fec52abb86a9a56384b89d37e375e60ff1bbccaa3d8396e",
+        "size_in_bytes": 3690
+      },
+      {
+        "_path": "Lib/site-packages/dns/e164.pyi",
+        "path_type": "hardlink",
+        "sha256": "0ba1855e6e259203bcdba9c48a80f461c81a69ad660cd62d29f3b026ac81a8f6",
+        "sha256_in_prefix": "0ba1855e6e259203bcdba9c48a80f461c81a69ad660cd62d29f3b026ac81a8f6",
+        "size_in_bytes": 370
+      },
+      {
+        "_path": "Lib/site-packages/dns/edns.py",
+        "path_type": "hardlink",
+        "sha256": "838d9a07cb0e27c49c5e1d56079012c286c0d56f8eeab08e007b11997b322b96",
+        "sha256_in_prefix": "838d9a07cb0e27c49c5e1d56079012c286c0d56f8eeab08e007b11997b322b96",
+        "size_in_bytes": 13120
+      },
+      {
+        "_path": "Lib/site-packages/dns/entropy.py",
+        "path_type": "hardlink",
+        "sha256": "6c209feebb431bbeda063a308e30994f3e15a52cf2ec07f9ffa91a5d7c3d9aba",
+        "sha256_in_prefix": "6c209feebb431bbeda063a308e30994f3e15a52cf2ec07f9ffa91a5d7c3d9aba",
+        "size_in_bytes": 4163
+      },
+      {
+        "_path": "Lib/site-packages/dns/entropy.pyi",
+        "path_type": "hardlink",
+        "sha256": "fb076aa78f1e2ea1ba6fa66005444c7d23b1092e80126ae0224d08651f3f9142",
+        "sha256_in_prefix": "fb076aa78f1e2ea1ba6fa66005444c7d23b1092e80126ae0224d08651f3f9142",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "Lib/site-packages/dns/enum.py",
+        "path_type": "hardlink",
+        "sha256": "f6bf0488c06fa9e5e2a858307de8e3c173955f1600e2c762ff21cda69f0e322d",
+        "sha256_in_prefix": "f6bf0488c06fa9e5e2a858307de8e3c173955f1600e2c762ff21cda69f0e322d",
+        "size_in_bytes": 2817
+      },
+      {
+        "_path": "Lib/site-packages/dns/exception.py",
+        "path_type": "hardlink",
+        "sha256": "83bfa6459fe9cb0cbd89d6dc43797bcb60b4e689768b4e940da1f67133ba1a23",
+        "sha256_in_prefix": "83bfa6459fe9cb0cbd89d6dc43797bcb60b4e689768b4e940da1f67133ba1a23",
+        "size_in_bytes": 5259
+      },
+      {
+        "_path": "Lib/site-packages/dns/exception.pyi",
+        "path_type": "hardlink",
+        "sha256": "99a74335de7b640ed588a98850d2046efbe6fa249b8d561d2377e6498a2997d7",
+        "sha256_in_prefix": "99a74335de7b640ed588a98850d2046efbe6fa249b8d561d2377e6498a2997d7",
+        "size_in_bytes": 326
+      },
+      {
+        "_path": "Lib/site-packages/dns/flags.py",
+        "path_type": "hardlink",
+        "sha256": "2a198858485a1ec3f49b4826f4c69063487f2f4f2a1a162323bff971860cc3d5",
+        "sha256_in_prefix": "2a198858485a1ec3f49b4826f4c69063487f2f4f2a1a162323bff971860cc3d5",
+        "size_in_bytes": 2642
+      },
+      {
+        "_path": "Lib/site-packages/dns/grange.py",
+        "path_type": "hardlink",
+        "sha256": "afd752745eb0e05db35fb656c851d6bef4109a1e03aca9a39263f87b1f326ac8",
+        "sha256_in_prefix": "afd752745eb0e05db35fb656c851d6bef4109a1e03aca9a39263f87b1f326ac8",
+        "size_in_bytes": 2092
+      },
+      {
+        "_path": "Lib/site-packages/dns/immutable.py",
+        "path_type": "hardlink",
+        "sha256": "2ce48a6a72034957370cd412b29639f6554ffb9d4198c07ca3ec646bbb790fa4",
+        "sha256_in_prefix": "2ce48a6a72034957370cd412b29639f6554ffb9d4198c07ca3ec646bbb790fa4",
+        "size_in_bytes": 2022
+      },
+      {
+        "_path": "Lib/site-packages/dns/inet.py",
+        "path_type": "hardlink",
+        "sha256": "baa1f2db663b4e356930af9352bf7232016727ad19ec4ef522765989fcbcf7fb",
+        "sha256_in_prefix": "baa1f2db663b4e356930af9352bf7232016727ad19ec4ef522765989fcbcf7fb",
+        "size_in_bytes": 4857
+      },
+      {
+        "_path": "Lib/site-packages/dns/inet.pyi",
+        "path_type": "hardlink",
+        "sha256": "7a8758c616cc023ed7898ebc24818007dd9bb18f29548075bbd4594805acefe0",
+        "sha256_in_prefix": "7a8758c616cc023ed7898ebc24818007dd9bb18f29548075bbd4594805acefe0",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "Lib/site-packages/dns/ipv4.py",
+        "path_type": "hardlink",
+        "sha256": "7cb55cec26a9cf1470fb54e3d23f7d30fefbe8080a0e066f77132a666cbc1673",
+        "sha256_in_prefix": "7cb55cec26a9cf1470fb54e3d23f7d30fefbe8080a0e066f77132a666cbc1673",
+        "size_in_bytes": 1980
+      },
+      {
+        "_path": "Lib/site-packages/dns/ipv6.py",
+        "path_type": "hardlink",
+        "sha256": "0203df8489b624f4735b82250a992153ffd255aa16b27ef898fad22b91c8adde",
+        "sha256_in_prefix": "0203df8489b624f4735b82250a992153ffd255aa16b27ef898fad22b91c8adde",
+        "size_in_bytes": 6056
+      },
+      {
+        "_path": "Lib/site-packages/dns/message.py",
+        "path_type": "hardlink",
+        "sha256": "00d945ea246a572a0ef78198f573777d08f1a668c57481b815d20fa889803975",
+        "sha256_in_prefix": "00d945ea246a572a0ef78198f573777d08f1a668c57481b815d20fa889803975",
+        "size_in_bytes": 56291
+      },
+      {
+        "_path": "Lib/site-packages/dns/message.pyi",
+        "path_type": "hardlink",
+        "sha256": "993c2025a30cc442aaf06faecc4fec472b2616a18deb66001e910958f42693c5",
+        "sha256_in_prefix": "993c2025a30cc442aaf06faecc4fec472b2616a18deb66001e910958f42693c5",
+        "size_in_bytes": 2076
+      },
+      {
+        "_path": "Lib/site-packages/dns/name.py",
+        "path_type": "hardlink",
+        "sha256": "2def17a79fa8c8bae70015dea35eac0392d9317b28f8dda29b715d73acf3efa0",
+        "sha256_in_prefix": "2def17a79fa8c8bae70015dea35eac0392d9317b28f8dda29b715d73acf3efa0",
+        "size_in_bytes": 32299
+      },
+      {
+        "_path": "Lib/site-packages/dns/name.pyi",
+        "path_type": "hardlink",
+        "sha256": "d2ffef8ca21772910e9d1f1a39a72b86b619be6548d2bd44af7f02c4e0d17dd8",
+        "sha256_in_prefix": "d2ffef8ca21772910e9d1f1a39a72b86b619be6548d2bd44af7f02c4e0d17dd8",
+        "size_in_bytes": 1640
+      },
+      {
+        "_path": "Lib/site-packages/dns/namedict.py",
+        "path_type": "hardlink",
+        "sha256": "ab2c1aa81d73688d4828046ede57035c0ae8126534bcaee1bd78146552d58465",
+        "sha256_in_prefix": "ab2c1aa81d73688d4828046ede57035c0ae8126534bcaee1bd78146552d58465",
+        "size_in_bytes": 3917
+      },
+      {
+        "_path": "Lib/site-packages/dns/node.py",
+        "path_type": "hardlink",
+        "sha256": "f320cf2a401679695c7648cd84739180f05d2323cb2f511b80bd7d7e9fbba311",
+        "sha256_in_prefix": "f320cf2a401679695c7648cd84739180f05d2323cb2f511b80bd7d7e9fbba311",
+        "size_in_bytes": 11454
+      },
+      {
+        "_path": "Lib/site-packages/dns/node.pyi",
+        "path_type": "hardlink",
+        "sha256": "50b748e9b3acc83f9ec869a32f3a8e9d2f822fcb5d09c5516531221b1411f7ad",
+        "sha256_in_prefix": "50b748e9b3acc83f9ec869a32f3a8e9d2f822fcb5d09c5516531221b1411f7ad",
+        "size_in_bytes": 731
+      },
+      {
+        "_path": "Lib/site-packages/dns/opcode.py",
+        "path_type": "hardlink",
+        "sha256": "431c206bf7c047605cd847654d282e28abeb071a615589c070c91073654648ed",
+        "sha256_in_prefix": "431c206bf7c047605cd847654d282e28abeb071a615589c070c91073654648ed",
+        "size_in_bytes": 2647
+      },
+      {
+        "_path": "Lib/site-packages/dns/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/dns/query.py",
+        "path_type": "hardlink",
+        "sha256": "f0e4bd9507df01ac9b9e7d30c774df4ec5cbd832381635e3bdc1a23d05a51dc3",
+        "sha256_in_prefix": "f0e4bd9507df01ac9b9e7d30c774df4ec5cbd832381635e3bdc1a23d05a51dc3",
+        "size_in_bytes": 43616
+      },
+      {
+        "_path": "Lib/site-packages/dns/query.pyi",
+        "path_type": "hardlink",
+        "sha256": "af50a6d25d0832526eb5900a479bad8fa1db8bdca1fc46e26f8a083edada6c5a",
+        "sha256_in_prefix": "af50a6d25d0832526eb5900a479bad8fa1db8bdca1fc46e26f8a083edada6c5a",
+        "size_in_bytes": 2561
+      },
+      {
+        "_path": "Lib/site-packages/dns/rcode.py",
+        "path_type": "hardlink",
+        "sha256": "ee0fba717f7a027512171429bfa67348e9e18c177f650c0b10235d764ff9ebdd",
+        "sha256_in_prefix": "ee0fba717f7a027512171429bfa67348e9e18c177f650c0b10235d764ff9ebdd",
+        "size_in_bytes": 3991
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdata.py",
+        "path_type": "hardlink",
+        "sha256": "be52d9fb4409983048041aff76cc1155d64ff770673590f97f04ae41af589167",
+        "sha256_in_prefix": "be52d9fb4409983048041aff76cc1155d64ff770673590f97f04ae41af589167",
+        "size_in_bytes": 27626
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdata.pyi",
+        "path_type": "hardlink",
+        "sha256": "fdd1f37b18b46df95da54d3adae776902118d5bb29ece6e915a96cdf630f16b1",
+        "sha256_in_prefix": "fdd1f37b18b46df95da54d3adae776902118d5bb29ece6e915a96cdf630f16b1",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdataclass.py",
+        "path_type": "hardlink",
+        "sha256": "57df545df6f66d71110d6107defe4d2bda30972eb63e52c392b1a60c03a0a998",
+        "sha256_in_prefix": "57df545df6f66d71110d6107defe4d2bda30972eb63e52c392b1a60c03a0a998",
+        "size_in_bytes": 2881
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdataset.py",
+        "path_type": "hardlink",
+        "sha256": "e2b218d5dc620f104ff2c63a2cbeb358909d7073ba9acddd6282191850cf9d29",
+        "sha256_in_prefix": "e2b218d5dc620f104ff2c63a2cbeb358909d7073ba9acddd6282191850cf9d29",
+        "size_in_bytes": 14884
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdataset.pyi",
+        "path_type": "hardlink",
+        "sha256": "ef41aeb7abd1792ed91fe3fbfa419a02a1869d15490654fdaf7dcde741113c03",
+        "sha256_in_prefix": "ef41aeb7abd1792ed91fe3fbfa419a02a1869d15490654fdaf7dcde741113c03",
+        "size_in_bytes": 2000
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdatatype.py",
+        "path_type": "hardlink",
+        "sha256": "01123d154b4ad9a1b53fae08a45719bda43c417ede81d9b396e63d9a8b105320",
+        "sha256_in_prefix": "01123d154b4ad9a1b53fae08a45719bda43c417ede81d9b396e63d9a8b105320",
+        "size_in_bytes": 6972
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/AFSDB.py",
+        "path_type": "hardlink",
+        "sha256": "49474b10353f1f6dc19cdfe462c2f98431e7ea502f7e4360de8197b7a1671557",
+        "sha256_in_prefix": "49474b10353f1f6dc19cdfe462c2f98431e7ea502f7e4360de8197b7a1671557",
+        "size_in_bytes": 1662
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/AMTRELAY.py",
+        "path_type": "hardlink",
+        "sha256": "9dd7c867c7df9d90bf437d1e5ae62f251766af0d19469bcc0cf1d1a38f84e2de",
+        "sha256_in_prefix": "9dd7c867c7df9d90bf437d1e5ae62f251766af0d19469bcc0cf1d1a38f84e2de",
+        "size_in_bytes": 3439
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/AVC.py",
+        "path_type": "hardlink",
+        "sha256": "2c71770de21b25540f1ec1f1d56e7fd1dd90079bbcc31dc20af6c3713ccc0228",
+        "sha256_in_prefix": "2c71770de21b25540f1ec1f1d56e7fd1dd90079bbcc31dc20af6c3713ccc0228",
+        "size_in_bytes": 1025
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/CAA.py",
+        "path_type": "hardlink",
+        "sha256": "9e8a9f4fd459eb24e23febefc238d10d07afcd673a07555c4628711a727c9a92",
+        "sha256_in_prefix": "9e8a9f4fd459eb24e23febefc238d10d07afcd673a07555c4628711a727c9a92",
+        "size_in_bytes": 2531
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/CDNSKEY.py",
+        "path_type": "hardlink",
+        "sha256": "3f475364109e501c351afbf041914e0212599c04d05de23cfa1efc90e765ff34",
+        "sha256_in_prefix": "3f475364109e501c351afbf041914e0212599c04d05de23cfa1efc90e765ff34",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/CDS.py",
+        "path_type": "hardlink",
+        "sha256": "c8b96d1be4efec1c59660453bd50f80b3f8b9dea912c81920daa9ef3456b11bb",
+        "sha256_in_prefix": "c8b96d1be4efec1c59660453bd50f80b3f8b9dea912c81920daa9ef3456b11bb",
+        "size_in_bytes": 1164
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/CERT.py",
+        "path_type": "hardlink",
+        "sha256": "3686777645fbcaa26c38f3630bbcac15386348cdfbd89b4a515bf3900f82c8a8",
+        "sha256_in_prefix": "3686777645fbcaa26c38f3630bbcac15386348cdfbd89b4a515bf3900f82c8a8",
+        "size_in_bytes": 3576
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/CNAME.py",
+        "path_type": "hardlink",
+        "sha256": "3af4a75b267a8289ac89c1c2831112f46deea5129b18bc4b2b956dd888545dc7",
+        "sha256_in_prefix": "3af4a75b267a8289ac89c1c2831112f46deea5129b18bc4b2b956dd888545dc7",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/CSYNC.py",
+        "path_type": "hardlink",
+        "sha256": "f055e8ecb67c69a296fca542dbb33c12ffb69c0bf82c91157da4ce6b75d6aba1",
+        "sha256_in_prefix": "f055e8ecb67c69a296fca542dbb33c12ffb69c0bf82c91157da4ce6b75d6aba1",
+        "size_in_bytes": 2444
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/DLV.py",
+        "path_type": "hardlink",
+        "sha256": "f40416a18392f62f86765b089fa63edf1f4c58a2de0dd740c835d9593f07b229",
+        "sha256_in_prefix": "f40416a18392f62f86765b089fa63edf1f4c58a2de0dd740c835d9593f07b229",
+        "size_in_bytes": 987
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/DNAME.py",
+        "path_type": "hardlink",
+        "sha256": "3a297c07f9a0550ebf62fc4321534edc0b2c03f46db327999992535015c3ff48",
+        "sha256_in_prefix": "3a297c07f9a0550ebf62fc4321534edc0b2c03f46db327999992535015c3ff48",
+        "size_in_bytes": 1151
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/DNSKEY.py",
+        "path_type": "hardlink",
+        "sha256": "6a7f2050203b09b9b5e30794061eff80feeadb7ece436f42a638e7abdca53df3",
+        "sha256_in_prefix": "6a7f2050203b09b9b5e30794061eff80feeadb7ece436f42a638e7abdca53df3",
+        "size_in_bytes": 1146
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/DS.py",
+        "path_type": "hardlink",
+        "sha256": "29687084afa62ae26f8dbe23ba39df7a24701d58f39ec67c31f049f9f9b3d162",
+        "sha256_in_prefix": "29687084afa62ae26f8dbe23ba39df7a24701d58f39ec67c31f049f9f9b3d162",
+        "size_in_bytes": 996
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/EUI48.py",
+        "path_type": "hardlink",
+        "sha256": "06f7048677158dc464b41c59c34756c7fc183f92465419e9033332a62c535bbc",
+        "sha256_in_prefix": "06f7048677158dc464b41c59c34756c7fc183f92465419e9033332a62c535bbc",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/EUI64.py",
+        "path_type": "hardlink",
+        "sha256": "a9fa919a473ec1798fa4de29e79f64a47e2c734246e6e069423b31d1935a537d",
+        "sha256_in_prefix": "a9fa919a473ec1798fa4de29e79f64a47e2c734246e6e069423b31d1935a537d",
+        "size_in_bytes": 1162
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/GPOS.py",
+        "path_type": "hardlink",
+        "sha256": "2f7f5bb572c05dcb0ef8bd6979b17f43bad2ff0c15e0e8f11ca8b6b8006bab6e",
+        "sha256_in_prefix": "2f7f5bb572c05dcb0ef8bd6979b17f43bad2ff0c15e0e8f11ca8b6b8006bab6e",
+        "size_in_bytes": 4521
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/HINFO.py",
+        "path_type": "hardlink",
+        "sha256": "8863582ab9e8a55ea7c73fc8ba6dc87fd916c671d795a50f92cf217ce6dc423f",
+        "sha256_in_prefix": "8863582ab9e8a55ea7c73fc8ba6dc87fd916c671d795a50f92cf217ce6dc423f",
+        "size_in_bytes": 2266
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/HIP.py",
+        "path_type": "hardlink",
+        "sha256": "a1454d8b77426d4b28751db253d994bb17a853945b4780cf4345c9fa374305bc",
+        "sha256_in_prefix": "a1454d8b77426d4b28751db253d994bb17a853945b4780cf4345c9fa374305bc",
+        "size_in_bytes": 3235
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/ISDN.py",
+        "path_type": "hardlink",
+        "sha256": "a004b41339712e5252f8de4b4eeb8c0c7f9656aa34b8f90d6644c331412aa051",
+        "sha256_in_prefix": "a004b41339712e5252f8de4b4eeb8c0c7f9656aa34b8f90d6644c331412aa051",
+        "size_in_bytes": 2726
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/L32.py",
+        "path_type": "hardlink",
+        "sha256": "fd985d569f176354ba1dfe8f6b3db9d8ce5ca0851e804f192013adfd72d4046b",
+        "sha256_in_prefix": "fd985d569f176354ba1dfe8f6b3db9d8ce5ca0851e804f192013adfd72d4046b",
+        "size_in_bytes": 1274
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/L64.py",
+        "path_type": "hardlink",
+        "sha256": "acebce3cf405031c239ef81f1c70aa8aeac5b5fb8c7f4e8be0c713077adea692",
+        "sha256_in_prefix": "acebce3cf405031c239ef81f1c70aa8aeac5b5fb8c7f4e8be0c713077adea692",
+        "size_in_bytes": 1653
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/LOC.py",
+        "path_type": "hardlink",
+        "sha256": "1083fece66195c31904e665989897f1a300b5599074dfd0a9d34576349704734",
+        "sha256_in_prefix": "1083fece66195c31904e665989897f1a300b5599074dfd0a9d34576349704734",
+        "size_in_bytes": 11961
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/LP.py",
+        "path_type": "hardlink",
+        "sha256": "dff7e63db815271d4496de6acf7e427f338e11e0d252781ac758d811d2c885de",
+        "sha256_in_prefix": "dff7e63db815271d4496de6acf7e427f338e11e0d252781ac758d811d2c885de",
+        "size_in_bytes": 1326
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/MX.py",
+        "path_type": "hardlink",
+        "sha256": "3967c91003595c5d602988175d1024a73fc1625c7143c732d1080a3dcecad1b0",
+        "sha256_in_prefix": "3967c91003595c5d602988175d1024a73fc1625c7143c732d1080a3dcecad1b0",
+        "size_in_bytes": 996
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/NID.py",
+        "path_type": "hardlink",
+        "sha256": "52c49ffdad2caf930b0e559c2862b1ea5c5e14c5fe9249e5b028a46612a14c94",
+        "sha256_in_prefix": "52c49ffdad2caf930b0e559c2862b1ea5c5e14c5fe9249e5b028a46612a14c94",
+        "size_in_bytes": 1549
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/NINFO.py",
+        "path_type": "hardlink",
+        "sha256": "167ec3f2d5c56d420145210a96c77dd93f4cfced71386a8abec817e9a79101ca",
+        "sha256_in_prefix": "167ec3f2d5c56d420145210a96c77dd93f4cfced71386a8abec817e9a79101ca",
+        "size_in_bytes": 1042
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/NS.py",
+        "path_type": "hardlink",
+        "sha256": "39d68701369fc1d18393900005b5bc1370c852daf9cee22d58d441ec0520f86a",
+        "sha256_in_prefix": "39d68701369fc1d18393900005b5bc1370c852daf9cee22d58d441ec0520f86a",
+        "size_in_bytes": 996
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/NSEC.py",
+        "path_type": "hardlink",
+        "sha256": "ba7eb07c0e66ea84c10883e9da5e1d1339f789058dedce2d4540a68be33f1e45",
+        "sha256_in_prefix": "ba7eb07c0e66ea84c10883e9da5e1d1339f789058dedce2d4540a68be33f1e45",
+        "size_in_bytes": 2480
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/NSEC3.py",
+        "path_type": "hardlink",
+        "sha256": "cf33af76ecb5956e8cdcd340222701650c455f47b041ab29ce07d12f88c5189d",
+        "sha256_in_prefix": "cf33af76ecb5956e8cdcd340222701650c455f47b041ab29ce07d12f88c5189d",
+        "size_in_bytes": 4073
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/NSEC3PARAM.py",
+        "path_type": "hardlink",
+        "sha256": "8e725b4fcde8da52313e3da5518e84ba277ab71749faf0ee5e6b94acb88bca53",
+        "sha256_in_prefix": "8e725b4fcde8da52313e3da5518e84ba277ab71749faf0ee5e6b94acb88bca53",
+        "size_in_bytes": 2703
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/OPENPGPKEY.py",
+        "path_type": "hardlink",
+        "sha256": "79c0219f9b1f83812e6fb52c3ec03a23cdaa10980f8394fe7fe54a9140e0af31",
+        "sha256_in_prefix": "79c0219f9b1f83812e6fb52c3ec03a23cdaa10980f8394fe7fe54a9140e0af31",
+        "size_in_bytes": 1855
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/OPT.py",
+        "path_type": "hardlink",
+        "sha256": "b213c3182e31f928f2fc31d0f6159a7ffed905419c290629ac913e536f70c2bb",
+        "sha256_in_prefix": "b213c3182e31f928f2fc31d0f6159a7ffed905419c290629ac913e536f70c2bb",
+        "size_in_bytes": 2560
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/PTR.py",
+        "path_type": "hardlink",
+        "sha256": "1ab4d8102b25607f3069f748c8d85d3aac0e3079be87c70ef79e03470dd530d8",
+        "sha256_in_prefix": "1ab4d8102b25607f3069f748c8d85d3aac0e3079be87c70ef79e03470dd530d8",
+        "size_in_bytes": 998
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/RP.py",
+        "path_type": "hardlink",
+        "sha256": "a64243e0b6765070dd229e1bc8f146834f89bd170192ebf063cceef4a1658787",
+        "sha256_in_prefix": "a64243e0b6765070dd229e1bc8f146834f89bd170192ebf063cceef4a1658787",
+        "size_in_bytes": 2189
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/RRSIG.py",
+        "path_type": "hardlink",
+        "sha256": "7e97a0fd67371ad6cbc5842d18a2d78a843b03e295cf724d1aae4ad0d0a4d769",
+        "sha256_in_prefix": "7e97a0fd67371ad6cbc5842d18a2d78a843b03e295cf724d1aae4ad0d0a4d769",
+        "size_in_bytes": 4701
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/RT.py",
+        "path_type": "hardlink",
+        "sha256": "f421e413d74acf69ff459a6e1b8cce3963a2e1f5b7b5a87196545717cd38dd62",
+        "sha256_in_prefix": "f421e413d74acf69ff459a6e1b8cce3963a2e1f5b7b5a87196545717cd38dd62",
+        "size_in_bytes": 1014
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/SMIMEA.py",
+        "path_type": "hardlink",
+        "sha256": "eb28c7b950df204a1d054f70c5b086083679716630c98e850a4f9aab654d534b",
+        "sha256_in_prefix": "eb28c7b950df204a1d054f70c5b086083679716630c98e850a4f9aab654d534b",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/SOA.py",
+        "path_type": "hardlink",
+        "sha256": "a6d7e61a4ff6a271fcc117e11aa68870cfccefb0a3d9b0ac1186ae0e6e987f34",
+        "sha256_in_prefix": "a6d7e61a4ff6a271fcc117e11aa68870cfccefb0a3d9b0ac1186ae0e6e987f34",
+        "size_in_bytes": 3107
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/SPF.py",
+        "path_type": "hardlink",
+        "sha256": "c07b0a7505942f451ca214256e390d9087d95000ed0be159c8824dc3c345ac86",
+        "sha256_in_prefix": "c07b0a7505942f451ca214256e390d9087d95000ed0be159c8824dc3c345ac86",
+        "size_in_bytes": 1023
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/SSHFP.py",
+        "path_type": "hardlink",
+        "sha256": "f573d92eedd6e0b07a483e84a0879b0b1391e725dd8c4ef479ccb8c5d13c513e",
+        "sha256_in_prefix": "f573d92eedd6e0b07a483e84a0879b0b1391e725dd8c4ef479ccb8c5d13c513e",
+        "size_in_bytes": 2657
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/TKEY.py",
+        "path_type": "hardlink",
+        "sha256": "83a09834f8d244594eeeed2eca50bea30685feef8f1ea939e1150aab0c768558",
+        "sha256_in_prefix": "83a09834f8d244594eeeed2eca50bea30685feef8f1ea939e1150aab0c768558",
+        "size_in_bytes": 4834
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/TLSA.py",
+        "path_type": "hardlink",
+        "sha256": "1183fb017061e3332d0609dfcfcdbca9fa0b9052c29b983cbd1fbaa17fc34db1",
+        "sha256_in_prefix": "1183fb017061e3332d0609dfcfcdbca9fa0b9052c29b983cbd1fbaa17fc34db1",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/TSIG.py",
+        "path_type": "hardlink",
+        "sha256": "7759512adee7cfd0a7fa6a45e4b5bbf29ecce0036d28be5e02ad814b02ddf3cd",
+        "sha256_in_prefix": "7759512adee7cfd0a7fa6a45e4b5bbf29ecce0036d28be5e02ad814b02ddf3cd",
+        "size_in_bytes": 4463
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/TXT.py",
+        "path_type": "hardlink",
+        "sha256": "ec80088e0674857fcc221fdbd00a732afc4b5c74d2d2bb5e47e297b781cb695d",
+        "sha256_in_prefix": "ec80088e0674857fcc221fdbd00a732afc4b5c74d2d2bb5e47e297b781cb695d",
+        "size_in_bytes": 1001
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/URI.py",
+        "path_type": "hardlink",
+        "sha256": "d2e47afc9a0e1b5ddeb834018dbd7542d23ce2348638f88cad83a69265580d9e",
+        "sha256_in_prefix": "d2e47afc9a0e1b5ddeb834018dbd7542d23ce2348638f88cad83a69265580d9e",
+        "size_in_bytes": 2957
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/X25.py",
+        "path_type": "hardlink",
+        "sha256": "b1dd2325cba8c1960fecfd5a0012c7c0d7dfa7d2ece51bb486b08ae1ef449084",
+        "sha256_in_prefix": "b1dd2325cba8c1960fecfd5a0012c7c0d7dfa7d2ece51bb486b08ae1ef449084",
+        "size_in_bytes": 1949
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/ZONEMD.py",
+        "path_type": "hardlink",
+        "sha256": "1aa421d51e0ebc6618f871e937a681f97c999ae98b997cd35e4c355ac6ddb9ec",
+        "sha256_in_prefix": "1aa421d51e0ebc6618f871e937a681f97c999ae98b997cd35e4c355ac6ddb9ec",
+        "size_in_bytes": 2480
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c902b4f011fedbca48cc8a2bafcda74c45a40bfec8b8aceffd6994e95916db26",
+        "sha256_in_prefix": "c902b4f011fedbca48cc8a2bafcda74c45a40bfec8b8aceffd6994e95916db26",
+        "size_in_bytes": 1497
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/AFSDB.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "074c35b1460c5bbe02601fe0249e39e174ad090a71ef9e20b4bc8dcf37e35d18",
+        "sha256_in_prefix": "074c35b1460c5bbe02601fe0249e39e174ad090a71ef9e20b4bc8dcf37e35d18",
+        "size_in_bytes": 1051
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/AMTRELAY.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c29e1f0e07a50a49bdf59b3d7666657bacd1cbac108a397da2cdb362b2bd21e7",
+        "sha256_in_prefix": "c29e1f0e07a50a49bdf59b3d7666657bacd1cbac108a397da2cdb362b2bd21e7",
+        "size_in_bytes": 4461
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/AVC.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "51e428a2841a5bb3809320a17d152a18d489ce6edf2f91cd4e6cbb2ef3456c58",
+        "sha256_in_prefix": "51e428a2841a5bb3809320a17d152a18d489ce6edf2f91cd4e6cbb2ef3456c58",
+        "size_in_bytes": 618
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/CAA.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "31a240d74a1b62f5d0c265773df9fa80a0f958a8feb86dae67bb7a0fd62d9f4f",
+        "sha256_in_prefix": "31a240d74a1b62f5d0c265773df9fa80a0f958a8feb86dae67bb7a0fd62d9f4f",
+        "size_in_bytes": 3716
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/CDNSKEY.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d3a7990f58623331ddd23eecd319c6910a7bd854f0332c29fc5ccca221f8709",
+        "sha256_in_prefix": "2d3a7990f58623331ddd23eecd319c6910a7bd854f0332c29fc5ccca221f8709",
+        "size_in_bytes": 727
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/CDS.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad32703776b3bdfa7e46a541503be710ba4bbb5c8372ca23cf2e2b9e02042524",
+        "sha256_in_prefix": "ad32703776b3bdfa7e46a541503be710ba4bbb5c8372ca23cf2e2b9e02042524",
+        "size_in_bytes": 767
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/CERT.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb04a64d1efb259d0a95240565498fcdff657189b80e1b8f4d28b76af6acc8a6",
+        "sha256_in_prefix": "bb04a64d1efb259d0a95240565498fcdff657189b80e1b8f4d28b76af6acc8a6",
+        "size_in_bytes": 4781
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/CNAME.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c4b8bccc6660db42075c7ce892d5d857c6a701b52437acf21116304d8d2c5dc",
+        "sha256_in_prefix": "9c4b8bccc6660db42075c7ce892d5d857c6a701b52437acf21116304d8d2c5dc",
+        "size_in_bytes": 832
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/CSYNC.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e651ca8248127bd244efae5f5591954b6eee0313527d2de57063137ea0824569",
+        "sha256_in_prefix": "e651ca8248127bd244efae5f5591954b6eee0313527d2de57063137ea0824569",
+        "size_in_bytes": 3649
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/DLV.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a395525c638b323067deda7d082cccd28089dda2e4b20bcb02eb091ea2fb2355",
+        "sha256_in_prefix": "a395525c638b323067deda7d082cccd28089dda2e4b20bcb02eb091ea2fb2355",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/DNAME.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "454e27a0270ac1347bbaa105d6d9e80aa0e9430e8d6d249a0fca575a2dda643b",
+        "sha256_in_prefix": "454e27a0270ac1347bbaa105d6d9e80aa0e9430e8d6d249a0fca575a2dda643b",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/DNSKEY.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "992acb460006075d76f84c01ed963f76b8a5228ae5968d9c4223f98ac227bed8",
+        "sha256_in_prefix": "992acb460006075d76f84c01ed963f76b8a5228ae5968d9c4223f98ac227bed8",
+        "size_in_bytes": 724
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/DS.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca24a5c108ea5c023417efedd8064d0441c91ef8b674feab672a7906f616e4cb",
+        "sha256_in_prefix": "ca24a5c108ea5c023417efedd8064d0441c91ef8b674feab672a7906f616e4cb",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/EUI48.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7928df31eb4b6e28a560f3c774e4e09e86ba3f34fc819f4f9b9b39bee0d5e0f",
+        "sha256_in_prefix": "e7928df31eb4b6e28a560f3c774e4e09e86ba3f34fc819f4f9b9b39bee0d5e0f",
+        "size_in_bytes": 698
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/EUI64.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd164c7d6ca0772f4da7f7c24a23e1fd0bdde7d6d17fb7cc9fa978b3ccf74349",
+        "sha256_in_prefix": "fd164c7d6ca0772f4da7f7c24a23e1fd0bdde7d6d17fb7cc9fa978b3ccf74349",
+        "size_in_bytes": 698
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/GPOS.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2cac59c2fb66cc46a3b36147ee251186897beed91fad9bc4649aebc4cb9ec7d",
+        "sha256_in_prefix": "e2cac59c2fb66cc46a3b36147ee251186897beed91fad9bc4649aebc4cb9ec7d",
+        "size_in_bytes": 6832
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/HINFO.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "456763af4ec3687384ebedca5ec1056869ba8e10327d646a8d9183733d92d688",
+        "sha256_in_prefix": "456763af4ec3687384ebedca5ec1056869ba8e10327d646a8d9183733d92d688",
+        "size_in_bytes": 3300
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/HIP.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "096b8cdee7e9fdc36bcb7df4ea033b93078b7cd77b6dcd737f388885ae0f2c24",
+        "sha256_in_prefix": "096b8cdee7e9fdc36bcb7df4ea033b93078b7cd77b6dcd737f388885ae0f2c24",
+        "size_in_bytes": 5351
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/ISDN.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b803089a9103f58ee3cd6d4cef79189ff0fd334ab2469faeb25661a87267d4fa",
+        "sha256_in_prefix": "b803089a9103f58ee3cd6d4cef79189ff0fd334ab2469faeb25661a87267d4fa",
+        "size_in_bytes": 3801
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/L32.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "95624f51b364a53f985ef09d93617a6547aa836826a814e59cdad6d0e4fa86f4",
+        "sha256_in_prefix": "95624f51b364a53f985ef09d93617a6547aa836826a814e59cdad6d0e4fa86f4",
+        "size_in_bytes": 2705
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/L64.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "21e0d967ee208b3b00d99aef697dd971a6eb0e3cace2d27d1626fa9e9bb944af",
+        "sha256_in_prefix": "21e0d967ee208b3b00d99aef697dd971a6eb0e3cace2d27d1626fa9e9bb944af",
+        "size_in_bytes": 3238
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/LOC.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "83deffba265707e1070664d6eec9b0bfafbf4989039b850306d72003fbeb6f2a",
+        "sha256_in_prefix": "83deffba265707e1070664d6eec9b0bfafbf4989039b850306d72003fbeb6f2a",
+        "size_in_bytes": 15849
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/LP.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "cbca7e9eebaee77f80eec72a090d3eae288e911c419d5a5e86085b4d2e4931ea",
+        "sha256_in_prefix": "cbca7e9eebaee77f80eec72a090d3eae288e911c419d5a5e86085b4d2e4931ea",
+        "size_in_bytes": 2688
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/MX.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "288d41c4512d0469d590cfcb0b2b2cb0eabdbdff4f2bd52264e1dbef8b5b4598",
+        "sha256_in_prefix": "288d41c4512d0469d590cfcb0b2b2cb0eabdbdff4f2bd52264e1dbef8b5b4598",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/NID.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "20b13792ac2fb93588f6686cacf3a84a2a2252cc3857e845001432a21ec830b6",
+        "sha256_in_prefix": "20b13792ac2fb93588f6686cacf3a84a2a2252cc3857e845001432a21ec830b6",
+        "size_in_bytes": 3210
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/NINFO.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9e82cd92a770e877bc5289660fa2017551d7acfff395d4e37a935d8280d493f",
+        "sha256_in_prefix": "b9e82cd92a770e877bc5289660fa2017551d7acfff395d4e37a935d8280d493f",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/NS.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbf13abea545595af2d33e52af2f718037213da5ab8078c5b40c410bc7dee2a0",
+        "sha256_in_prefix": "bbf13abea545595af2d33e52af2f718037213da5ab8078c5b40c410bc7dee2a0",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/NSEC.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b00d05ca12044a2bb7bf992e0b97963dbb40c50dec4b7593106d4fc53d2b89f",
+        "sha256_in_prefix": "7b00d05ca12044a2bb7bf992e0b97963dbb40c50dec4b7593106d4fc53d2b89f",
+        "size_in_bytes": 3443
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/NSEC3.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "af84132f3aa14b78c5e2e929b6bcf99e34cdd9b2047979a7f31c47cc57e156c7",
+        "sha256_in_prefix": "af84132f3aa14b78c5e2e929b6bcf99e34cdd9b2047979a7f31c47cc57e156c7",
+        "size_in_bytes": 6086
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/NSEC3PARAM.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e8aa5878f14ee203c6b9f0b3beec433829a039138ebbcce00e4a57d2fb15f189",
+        "sha256_in_prefix": "e8aa5878f14ee203c6b9f0b3beec433829a039138ebbcce00e4a57d2fb15f189",
+        "size_in_bytes": 3687
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/OPENPGPKEY.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7321b258b36e020c5b014e0272dcb46a3edd717f8a3fc2937574ea6a2ea3f863",
+        "sha256_in_prefix": "7321b258b36e020c5b014e0272dcb46a3edd717f8a3fc2937574ea6a2ea3f863",
+        "size_in_bytes": 2533
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/OPT.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e10cea2cf09e06a8512eacf6ea0ffcc6fc3b75f20094a4464171c0656311d94",
+        "sha256_in_prefix": "5e10cea2cf09e06a8512eacf6ea0ffcc6fc3b75f20094a4464171c0656311d94",
+        "size_in_bytes": 3944
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/PTR.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "213e6d1ac8ffb48833b869b29bf991df8e574c8e24b1403da999a64abba70dd9",
+        "sha256_in_prefix": "213e6d1ac8ffb48833b869b29bf991df8e574c8e24b1403da999a64abba70dd9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/RP.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9bc149d7f602c07fa205ec3e3e49ce69f0f084c3acce962d052bdae39a39794d",
+        "sha256_in_prefix": "9bc149d7f602c07fa205ec3e3e49ce69f0f084c3acce962d052bdae39a39794d",
+        "size_in_bytes": 2860
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/RRSIG.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c25924fc235b6c2a8131b21a131208e64dcc2e1b57e379c24a2c75b38dbd74c3",
+        "sha256_in_prefix": "c25924fc235b6c2a8131b21a131208e64dcc2e1b57e379c24a2c75b38dbd74c3",
+        "size_in_bytes": 7123
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/RT.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "78a10a6502f9675d28161bb28fda46aa8c58a7cf4f2814a0ae7bc4afabfa46bf",
+        "sha256_in_prefix": "78a10a6502f9675d28161bb28fda46aa8c58a7cf4f2814a0ae7bc4afabfa46bf",
+        "size_in_bytes": 627
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/SMIMEA.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c5dd3909df6c58531ca8fbf41e07439a6f54556818940a41e38ee92f2627d54",
+        "sha256_in_prefix": "3c5dd3909df6c58531ca8fbf41e07439a6f54556818940a41e38ee92f2627d54",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/SOA.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e6a1b7605383fe19e4a63d5ec5b053f1a96c65d24fc69d04539e5c53e689afa9",
+        "sha256_in_prefix": "e6a1b7605383fe19e4a63d5ec5b053f1a96c65d24fc69d04539e5c53e689afa9",
+        "size_in_bytes": 4090
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/SPF.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "3a57fa9f9c474e70884d96653d89039516d56e89dc2b9d723f1e53e995d9beaa",
+        "sha256_in_prefix": "3a57fa9f9c474e70884d96653d89039516d56e89dc2b9d723f1e53e995d9beaa",
+        "size_in_bytes": 618
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/SSHFP.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4eb9bff0c7cd9e66d9f0ab75c69cb28d1473142241e4d3bb59387ff53c2eb0e2",
+        "sha256_in_prefix": "4eb9bff0c7cd9e66d9f0ab75c69cb28d1473142241e4d3bb59387ff53c2eb0e2",
+        "size_in_bytes": 3421
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/TKEY.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec8b674d71c1f3b2d5b4a88b6c4791f73f180b8977ec5792bec292603f1eca2f",
+        "sha256_in_prefix": "ec8b674d71c1f3b2d5b4a88b6c4791f73f180b8977ec5792bec292603f1eca2f",
+        "size_in_bytes": 5509
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/TLSA.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c8e504152bbcba88b09eda20a00fa83acf615abe29ecfb7209d3c4b727b9007",
+        "sha256_in_prefix": "9c8e504152bbcba88b09eda20a00fa83acf615abe29ecfb7209d3c4b727b9007",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/TSIG.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "58f9fcd3028fb1908831268312bd4ce23f427b6144538586e0825c5df9608715",
+        "sha256_in_prefix": "58f9fcd3028fb1908831268312bd4ce23f427b6144538586e0825c5df9608715",
+        "size_in_bytes": 6316
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/TXT.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7fba28389f2d1fad9029ead106ba946ed140ff0e9feb600a1d94fb8282070d96",
+        "sha256_in_prefix": "7fba28389f2d1fad9029ead106ba946ed140ff0e9feb600a1d94fb8282070d96",
+        "size_in_bytes": 618
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/URI.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "06e9e1fe606bd65bd7a99d3ca1bfe5c7637581292fcb0ef8386ff78fa04ff2fe",
+        "sha256_in_prefix": "06e9e1fe606bd65bd7a99d3ca1bfe5c7637581292fcb0ef8386ff78fa04ff2fe",
+        "size_in_bytes": 4508
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/X25.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d22388cfe63e3154a97cb657c75ec9cc24b243351210f3d78c27fce677d52cf",
+        "sha256_in_prefix": "1d22388cfe63e3154a97cb657c75ec9cc24b243351210f3d78c27fce677d52cf",
+        "size_in_bytes": 2595
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/ZONEMD.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "40f8b98851c29f374010a3de6b2a0857cf00a913240ec2b025f81fa59ad10ca8",
+        "sha256_in_prefix": "40f8b98851c29f374010a3de6b2a0857cf00a913240ec2b025f81fa59ad10ca8",
+        "size_in_bytes": 4451
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/ANY/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f5198c2ec1f6e433c7d3ceaa686704e226f49f9e3ec66cee863e7637443bb9f",
+        "sha256_in_prefix": "9f5198c2ec1f6e433c7d3ceaa686704e226f49f9e3ec66cee863e7637443bb9f",
+        "size_in_bytes": 533
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/CH/A.py",
+        "path_type": "hardlink",
+        "sha256": "d340b259d114ebb453fbed1d5d5af3fae062fdb47e8713fa4314aa07aaddbfd0",
+        "sha256_in_prefix": "d340b259d114ebb453fbed1d5d5af3fae062fdb47e8713fa4314aa07aaddbfd0",
+        "size_in_bytes": 2220
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/CH/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "11ff19e7c91dc5b2e94eab603ffbb731f550a2ac1bdc87f64faf1813020ca2cc",
+        "sha256_in_prefix": "11ff19e7c91dc5b2e94eab603ffbb731f550a2ac1bdc87f64faf1813020ca2cc",
+        "size_in_bytes": 923
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/CH/__pycache__/A.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f60fc94d8f537b5d7bbfb4faa18b843ac582b7946799ef76a63e87200e15c0d",
+        "sha256_in_prefix": "0f60fc94d8f537b5d7bbfb4faa18b843ac582b7946799ef76a63e87200e15c0d",
+        "size_in_bytes": 2761
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/CH/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "86c4e8d1a79b25da02e62948050e8276ac86fee2571d9a4078a3a3c3ae14ab25",
+        "sha256_in_prefix": "86c4e8d1a79b25da02e62948050e8276ac86fee2571d9a4078a3a3c3ae14ab25",
+        "size_in_bytes": 225
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/A.py",
+        "path_type": "hardlink",
+        "sha256": "8e52f4b4836fb32ce2804d08b07aeb86c72eca0bf4570bfcfebe38ab878d917c",
+        "sha256_in_prefix": "8e52f4b4836fb32ce2804d08b07aeb86c72eca0bf4570bfcfebe38ab878d917c",
+        "size_in_bytes": 1819
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/AAAA.py",
+        "path_type": "hardlink",
+        "sha256": "8d5a134cb80ba90176aa3917bda9e6e2d742e5b13f04f1b6eea7894d7c2b7584",
+        "sha256_in_prefix": "8d5a134cb80ba90176aa3917bda9e6e2d742e5b13f04f1b6eea7894d7c2b7584",
+        "size_in_bytes": 1825
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/APL.py",
+        "path_type": "hardlink",
+        "sha256": "d11f927c98f1cdd9cb896f023418786732029622378c8274eacdf8e1871d63ae",
+        "sha256_in_prefix": "d11f927c98f1cdd9cb896f023418786732029622378c8274eacdf8e1871d63ae",
+        "size_in_bytes": 5104
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/DHCID.py",
+        "path_type": "hardlink",
+        "sha256": "dceb2a43cac9e38401351e88048fc31dcd11bfbf2b1143feb164bb3fe201fcd0",
+        "sha256_in_prefix": "dceb2a43cac9e38401351e88048fc31dcd11bfbf2b1143feb164bb3fe201fcd0",
+        "size_in_bytes": 1844
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/HTTPS.py",
+        "path_type": "hardlink",
+        "sha256": "c335406b2a7e8b500008d878bfa458d592926c8abad7e8c373d1667a86ade927",
+        "sha256_in_prefix": "c335406b2a7e8b500008d878bfa458d592926c8abad7e8c373d1667a86ade927",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/IPSECKEY.py",
+        "path_type": "hardlink",
+        "sha256": "245c1218613719e6b0b8e276b2255671a3d32ff73b732a2243d8a4f3eaca63b0",
+        "sha256_in_prefix": "245c1218613719e6b0b8e276b2255671a3d32ff73b732a2243d8a4f3eaca63b0",
+        "size_in_bytes": 3435
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/KX.py",
+        "path_type": "hardlink",
+        "sha256": "828be1d184deaf6fa6a5f87153073e7d06f55a7a8c90492ae63211a36d278751",
+        "sha256_in_prefix": "828be1d184deaf6fa6a5f87153073e7d06f55a7a8c90492ae63211a36d278751",
+        "size_in_bytes": 1014
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/NAPTR.py",
+        "path_type": "hardlink",
+        "sha256": "0a35edab4d3a7e3664c8105f73a20fcd84be20fc30a74ab3ef3951d60e148d74",
+        "sha256_in_prefix": "0a35edab4d3a7e3664c8105f73a20fcd84be20fc30a74ab3ef3951d60e148d74",
+        "size_in_bytes": 3682
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/NSAP.py",
+        "path_type": "hardlink",
+        "sha256": "ffb41ff5f40aff52511eb4c123269cff4e04ea0a73da2ce7994dee9cfc4b82bc",
+        "sha256_in_prefix": "ffb41ff5f40aff52511eb4c123269cff4e04ea0a73da2ce7994dee9cfc4b82bc",
+        "size_in_bytes": 2170
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/NSAP_PTR.py",
+        "path_type": "hardlink",
+        "sha256": "8539e278046b0313becae15e329a63e309515fa82fe910b4f3d84b6aeaecf944",
+        "sha256_in_prefix": "8539e278046b0313becae15e329a63e309515fa82fe910b4f3d84b6aeaecf944",
+        "size_in_bytes": 1016
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/PX.py",
+        "path_type": "hardlink",
+        "sha256": "0b6dfc13c6c66d1dca732430d1022150235d933090e1b9847b0ae59b9414d52f",
+        "sha256_in_prefix": "0b6dfc13c6c66d1dca732430d1022150235d933090e1b9847b0ae59b9414d52f",
+        "size_in_bytes": 2761
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/SRV.py",
+        "path_type": "hardlink",
+        "sha256": "fb6b632e9d83265d50bec19c772dc3138a19872beaaaf67c18bef312bdf2486f",
+        "sha256_in_prefix": "fb6b632e9d83265d50bec19c772dc3138a19872beaaaf67c18bef312bdf2486f",
+        "size_in_bytes": 2806
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/SVCB.py",
+        "path_type": "hardlink",
+        "sha256": "4ab1ac1a306aae7b24066c4139941e8ffbb23eab419d99a48b48e53e8493b9dd",
+        "sha256_in_prefix": "4ab1ac1a306aae7b24066c4139941e8ffbb23eab419d99a48b48e53e8493b9dd",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/WKS.py",
+        "path_type": "hardlink",
+        "sha256": "45d6a90176ab703111ebbf74c99836241f6e7d2a0f160205da546139c0271a6f",
+        "sha256_in_prefix": "45d6a90176ab703111ebbf74c99836241f6e7d2a0f160205da546139c0271a6f",
+        "size_in_bytes": 3656
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5319c7acd1d95cebb011435e05ae0771a960c54661cae675f13ce10416674efd",
+        "sha256_in_prefix": "5319c7acd1d95cebb011435e05ae0771a960c54661cae675f13ce10416674efd",
+        "size_in_bytes": 1083
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/A.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "71cf92ac5dfa03d53f44f35a1df0a218e7b0b35634a8343625febebe433d7953",
+        "sha256_in_prefix": "71cf92ac5dfa03d53f44f35a1df0a218e7b0b35634a8343625febebe433d7953",
+        "size_in_bytes": 2342
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/AAAA.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "6d3265c9ee16f6610cbd94bbf166c48a60196e7841b8ab8a5567a27548e2aed8",
+        "sha256_in_prefix": "6d3265c9ee16f6610cbd94bbf166c48a60196e7841b8ab8a5567a27548e2aed8",
+        "size_in_bytes": 2367
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/APL.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "29b81624cfe71d173e4b52a801c2cd092c57bfd4714e4f623d43f27ff717d831",
+        "sha256_in_prefix": "29b81624cfe71d173e4b52a801c2cd092c57bfd4714e4f623d43f27ff717d831",
+        "size_in_bytes": 7404
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/DHCID.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "3540e697125476ffc8e214a0f2986a63438a4800f20f29761879c813aec857fa",
+        "sha256_in_prefix": "3540e697125476ffc8e214a0f2986a63438a4800f20f29761879c813aec857fa",
+        "size_in_bytes": 2438
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/HTTPS.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "35aa6941cb4b909557126c4a8a58625bd115dd0ed3e06cff5b22bc87deaa8696",
+        "sha256_in_prefix": "35aa6941cb4b909557126c4a8a58625bd115dd0ed3e06cff5b22bc87deaa8696",
+        "size_in_bytes": 622
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/IPSECKEY.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "12dddfc71c9917fbe164af6a3e947b391f4b5f909f6509c4f74e37ab264d1b76",
+        "sha256_in_prefix": "12dddfc71c9917fbe164af6a3e947b391f4b5f909f6509c4f74e37ab264d1b76",
+        "size_in_bytes": 4463
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/KX.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f3cf9de3ef2833a6fb2c06013cd824ae60569785f8ed5b6a2644272bccb1ea9",
+        "sha256_in_prefix": "0f3cf9de3ef2833a6fb2c06013cd824ae60569785f8ed5b6a2644272bccb1ea9",
+        "size_in_bytes": 626
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/NAPTR.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3b094b0b5ffff6e045a3f9be1da9ca96bf8ca8211d026815ad5d19f6bc30ad4",
+        "sha256_in_prefix": "e3b094b0b5ffff6e045a3f9be1da9ca96bf8ca8211d026815ad5d19f6bc30ad4",
+        "size_in_bytes": 5448
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/NSAP.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "635c3971a69d0d2503c34e12671e39cf9867486096eaffb48b1f2a9743d88ed7",
+        "sha256_in_prefix": "635c3971a69d0d2503c34e12671e39cf9867486096eaffb48b1f2a9743d88ed7",
+        "size_in_bytes": 3015
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/NSAP_PTR.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b13465a1d508f900fe9f57bcad9a2fc9712e105dd1f8097915c880235be35fcb",
+        "sha256_in_prefix": "b13465a1d508f900fe9f57bcad9a2fc9712e105dd1f8097915c880235be35fcb",
+        "size_in_bytes": 637
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/PX.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef5d59eda01baeb94999c6edec53c42b63d78026455101d5bc544bc59a613320",
+        "sha256_in_prefix": "ef5d59eda01baeb94999c6edec53c42b63d78026455101d5bc544bc59a613320",
+        "size_in_bytes": 3773
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/SRV.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad2931bf50a890e0c7bf423d4d0d941339a92bb4b767fbccd6af3d452f5166eb",
+        "sha256_in_prefix": "ad2931bf50a890e0c7bf423d4d0d941339a92bb4b767fbccd6af3d452f5166eb",
+        "size_in_bytes": 3991
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/SVCB.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0edc5f1186388ee409d9b946f05578ccfc0feb9c00fc869a39821fad481fa324",
+        "sha256_in_prefix": "0edc5f1186388ee409d9b946f05578ccfc0feb9c00fc869a39821fad481fa324",
+        "size_in_bytes": 619
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/WKS.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2e942a7774a0800c2ebadc8d6d80dfa3d515d01babaa27a8b1b84c5d13699ae",
+        "sha256_in_prefix": "d2e942a7774a0800c2ebadc8d6d80dfa3d515d01babaa27a8b1b84c5d13699ae",
+        "size_in_bytes": 5103
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/IN/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0421ba2384ce6bd8b36da823cb9c986c374852cade4d2c1966ab1bd7f0a2af66",
+        "sha256_in_prefix": "0421ba2384ce6bd8b36da823cb9c986c374852cade4d2c1966ab1bd7f0a2af66",
+        "size_in_bytes": 316
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "690ebf151e3855921e4882f377cc4ce6a4e758683da10e229b6c92fffccad91c",
+        "sha256_in_prefix": "690ebf151e3855921e4882f377cc4ce6a4e758683da10e229b6c92fffccad91c",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a472401a440921f836e3ccd8030e610b95a98dd44b7af025a6c462f779672733",
+        "sha256_in_prefix": "a472401a440921f836e3ccd8030e610b95a98dd44b7af025a6c462f779672733",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/__pycache__/dnskeybase.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "527ae2bcb61ca16a22acc346fe397f37bdcd6e4905ccf7a09b2659e1eeb2076d",
+        "sha256_in_prefix": "527ae2bcb61ca16a22acc346fe397f37bdcd6e4905ccf7a09b2659e1eeb2076d",
+        "size_in_bytes": 4092
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/__pycache__/dsbase.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d4689d25e3a545d3e9f6489a7498dfc634608d6c9fdde2edb28a17a06af7215",
+        "sha256_in_prefix": "9d4689d25e3a545d3e9f6489a7498dfc634608d6c9fdde2edb28a17a06af7215",
+        "size_in_bytes": 4382
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/__pycache__/euibase.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "94732b0862784a50896d463e92d07c24da22d64fc7cfed1ab1ad694ce7cc3bf0",
+        "sha256_in_prefix": "94732b0862784a50896d463e92d07c24da22d64fc7cfed1ab1ad694ce7cc3bf0",
+        "size_in_bytes": 3782
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/__pycache__/mxbase.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "79ddb821e48f7f8b9d7310dc960215e0931df3c054acbd85e11a81d349b21f92",
+        "sha256_in_prefix": "79ddb821e48f7f8b9d7310dc960215e0931df3c054acbd85e11a81d349b21f92",
+        "size_in_bytes": 4932
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/__pycache__/nsbase.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "cbb4529ab9937eea875d02b679188df3fcccdc732f5b788f5a5ddb1964517ccf",
+        "sha256_in_prefix": "cbb4529ab9937eea875d02b679188df3fcccdc732f5b788f5a5ddb1964517ccf",
+        "size_in_bytes": 3143
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/__pycache__/svcbbase.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c3007449670058e2810e8d2074344a305e8ef8022813408d366185e4c33af751",
+        "sha256_in_prefix": "c3007449670058e2810e8d2074344a305e8ef8022813408d366185e4c33af751",
+        "size_in_bytes": 32370
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/__pycache__/tlsabase.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "84b11832380f1aaff5ea61e2ab135395782017125ce6156f255eb744ea7183ed",
+        "sha256_in_prefix": "84b11832380f1aaff5ea61e2ab135395782017125ce6156f255eb744ea7183ed",
+        "size_in_bytes": 3670
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/__pycache__/txtbase.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7935c6fd6ec1762e420a4bab5e1dd1f5772224abafe61b865d68562167d1545",
+        "sha256_in_prefix": "b7935c6fd6ec1762e420a4bab5e1dd1f5772224abafe61b865d68562167d1545",
+        "size_in_bytes": 4348
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/__pycache__/util.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a681a4aaaea3e8b751b030d2b81e852b3d65930dc24a665c5235b4a1231d2684",
+        "sha256_in_prefix": "a681a4aaaea3e8b751b030d2b81e852b3d65930dc24a665c5235b4a1231d2684",
+        "size_in_bytes": 13740
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/dnskeybase.py",
+        "path_type": "hardlink",
+        "sha256": "6f7e67afe35b395f536d06d105e1bf622d65610219a38fe814a08e6474e17641",
+        "sha256_in_prefix": "6f7e67afe35b395f536d06d105e1bf622d65610219a38fe814a08e6474e17641",
+        "size_in_bytes": 2836
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/dnskeybase.pyi",
+        "path_type": "hardlink",
+        "sha256": "2964ca8ef2ee31cea0fb3ff85281b2471284cb1330cc5618dc6bbd3659b815c8",
+        "sha256_in_prefix": "2964ca8ef2ee31cea0fb3ff85281b2471284cb1330cc5618dc6bbd3659b815c8",
+        "size_in_bytes": 878
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/dsbase.py",
+        "path_type": "hardlink",
+        "sha256": "de8fa520a8a157a88d430e1dd1e54a801f7c286e4e3e332e101ba03b9d739496",
+        "sha256_in_prefix": "de8fa520a8a157a88d430e1dd1e54a801f7c286e4e3e332e101ba03b9d739496",
+        "size_in_bytes": 3555
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/euibase.py",
+        "path_type": "hardlink",
+        "sha256": "a25baf91dd4046cf79defb4f24e0ebc3645f766dab379f2592588e388a615bf3",
+        "sha256_in_prefix": "a25baf91dd4046cf79defb4f24e0ebc3645f766dab379f2592588e388a615bf3",
+        "size_in_bytes": 2682
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/mxbase.py",
+        "path_type": "hardlink",
+        "sha256": "3798b488797a5e87b457c892ad3f02e0da6b7368b257daaeb7dd1b449bd0493e",
+        "sha256_in_prefix": "3798b488797a5e87b457c892ad3f02e0da6b7368b257daaeb7dd1b449bd0493e",
+        "size_in_bytes": 3203
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/nsbase.py",
+        "path_type": "hardlink",
+        "sha256": "8287f067418ddc10932d34f9e89897c6bd887eec2c359cf5dc7e72fc88d697d8",
+        "sha256_in_prefix": "8287f067418ddc10932d34f9e89897c6bd887eec2c359cf5dc7e72fc88d697d8",
+        "size_in_bytes": 2329
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/svcbbase.py",
+        "path_type": "hardlink",
+        "sha256": "8f0f7ba20a3bbec29a14508b98d9cb70011630d9e76eab634453782ca30f764b",
+        "sha256_in_prefix": "8f0f7ba20a3bbec29a14508b98d9cb70011630d9e76eab634453782ca30f764b",
+        "size_in_bytes": 16945
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/tlsabase.py",
+        "path_type": "hardlink",
+        "sha256": "24f1f917cb0586e6f79e4a5b5a95534fb5198ca8b5d7b808f015e37926ebd9fa",
+        "sha256_in_prefix": "24f1f917cb0586e6f79e4a5b5a95534fb5198ca8b5d7b808f015e37926ebd9fa",
+        "size_in_bytes": 2755
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/txtbase.py",
+        "path_type": "hardlink",
+        "sha256": "19028641f76b7cb28c54290d5ebc446d96c7d6b3c5050116978baf7832c8c6b1",
+        "sha256_in_prefix": "19028641f76b7cb28c54290d5ebc446d96c7d6b3c5050116978baf7832c8c6b1",
+        "size_in_bytes": 3140
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/txtbase.pyi",
+        "path_type": "hardlink",
+        "sha256": "25bbeeab5e1f349ef107d331e90662820693266363a155fdb7f5aa29b548eea1",
+        "sha256_in_prefix": "25bbeeab5e1f349ef107d331e90662820693266363a155fdb7f5aa29b548eea1",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "Lib/site-packages/dns/rdtypes/util.py",
+        "path_type": "hardlink",
+        "sha256": "d27c03788579d6ca2f61b6aba63fd975e742d7c8b150d8c2e689e7eadb694427",
+        "sha256_in_prefix": "d27c03788579d6ca2f61b6aba63fd975e742d7c8b150d8c2e689e7eadb694427",
+        "size_in_bytes": 8751
+      },
+      {
+        "_path": "Lib/site-packages/dns/renderer.py",
+        "path_type": "hardlink",
+        "sha256": "43c8998795eb3ca288861c903004a3e7ab643766401817941f431c5b4407482d",
+        "sha256_in_prefix": "43c8998795eb3ca288861c903004a3e7ab643766401817941f431c5b4407482d",
+        "size_in_bytes": 8801
+      },
+      {
+        "_path": "Lib/site-packages/dns/resolver.py",
+        "path_type": "hardlink",
+        "sha256": "cf25b585cd004fd61a2f0ff6a871067efbd8971f1aca39efc870dafd93550366",
+        "sha256_in_prefix": "cf25b585cd004fd61a2f0ff6a871067efbd8971f1aca39efc870dafd93550366",
+        "size_in_bytes": 58168
+      },
+      {
+        "_path": "Lib/site-packages/dns/resolver.pyi",
+        "path_type": "hardlink",
+        "sha256": "b858b53cda36b4b8ed69dfd641e1f7b152dcf37475b1de6ad862f927a5110c5c",
+        "sha256_in_prefix": "b858b53cda36b4b8ed69dfd641e1f7b152dcf37475b1de6ad862f927a5110c5c",
+        "size_in_bytes": 2537
+      },
+      {
+        "_path": "Lib/site-packages/dns/reversename.py",
+        "path_type": "hardlink",
+        "sha256": "2975c0312b3d4d664bd74973025ca02734ff61efe9eeb3c0c4c811d5cbad28c1",
+        "sha256_in_prefix": "2975c0312b3d4d664bd74973025ca02734ff61efe9eeb3c0c4c811d5cbad28c1",
+        "size_in_bytes": 3733
+      },
+      {
+        "_path": "Lib/site-packages/dns/reversename.pyi",
+        "path_type": "hardlink",
+        "sha256": "5583812328185d6f439434031c1a221bd55cfa43946276f0da1f62243bcb973f",
+        "sha256_in_prefix": "5583812328185d6f439434031c1a221bd55cfa43946276f0da1f62243bcb973f",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "Lib/site-packages/dns/rrset.py",
+        "path_type": "hardlink",
+        "sha256": "5e4daa25a9c916ae1952c0b195047568f6c80b932432bc7f4662568d8a014ad9",
+        "sha256_in_prefix": "5e4daa25a9c916ae1952c0b195047568f6c80b932432bc7f4662568d8a014ad9",
+        "size_in_bytes": 7622
+      },
+      {
+        "_path": "Lib/site-packages/dns/rrset.pyi",
+        "path_type": "hardlink",
+        "sha256": "1bd2a1e1fa427f07fd95551739cadd04214b8d991639fc849faea541bd54dc3d",
+        "sha256_in_prefix": "1bd2a1e1fa427f07fd95551739cadd04214b8d991639fc849faea541bd54dc3d",
+        "size_in_bytes": 394
+      },
+      {
+        "_path": "Lib/site-packages/dns/serial.py",
+        "path_type": "hardlink",
+        "sha256": "41d4c6b4361c93e86d9f45f4231e9f2951762ed1a13a1f999c169321442bdf02",
+        "sha256_in_prefix": "41d4c6b4361c93e86d9f45f4231e9f2951762ed1a13a1f999c169321442bdf02",
+        "size_in_bytes": 3615
+      },
+      {
+        "_path": "Lib/site-packages/dns/set.py",
+        "path_type": "hardlink",
+        "sha256": "21b12e5014da88f0a6e752542622ce6faadaadf67c95d3df9b330ad4d924c94c",
+        "sha256_in_prefix": "21b12e5014da88f0a6e752542622ce6faadaadf67c95d3df9b330ad4d924c94c",
+        "size_in_bytes": 7823
+      },
+      {
+        "_path": "Lib/site-packages/dns/tokenizer.py",
+        "path_type": "hardlink",
+        "sha256": "77d5f410b041f165f02736fba86beffdfe1ce0b9f4d03eaf2b99d32fa488a68f",
+        "sha256_in_prefix": "77d5f410b041f165f02736fba86beffdfe1ce0b9f4d03eaf2b99d32fa488a68f",
+        "size_in_bytes": 22634
+      },
+      {
+        "_path": "Lib/site-packages/dns/transaction.py",
+        "path_type": "hardlink",
+        "sha256": "31ab8d622dda83e2bab69273bcf7407ab7eacd7baac80ce173a400f50513395a",
+        "sha256_in_prefix": "31ab8d622dda83e2bab69273bcf7407ab7eacd7baac80ce173a400f50513395a",
+        "size_in_bytes": 20387
+      },
+      {
+        "_path": "Lib/site-packages/dns/tsig.py",
+        "path_type": "hardlink",
+        "sha256": "d3e63c28a0075765158045036b270837cf4c8aab5ab3de7276da45e1736807a8",
+        "sha256_in_prefix": "d3e63c28a0075765158045036b270837cf4c8aab5ab3de7276da45e1736807a8",
+        "size_in_bytes": 11254
+      },
+      {
+        "_path": "Lib/site-packages/dns/tsigkeyring.py",
+        "path_type": "hardlink",
+        "sha256": "b86b14e23610f82da2f14d1d18c14d17fdfbf3333e08fb89bdaa9f01b26f3bd9",
+        "sha256_in_prefix": "b86b14e23610f82da2f14d1d18c14d17fdfbf3333e08fb89bdaa9f01b26f3bd9",
+        "size_in_bytes": 2501
+      },
+      {
+        "_path": "Lib/site-packages/dns/tsigkeyring.pyi",
+        "path_type": "hardlink",
+        "sha256": "27b56b68c616aad67651dffd4971fc4c84a53bd3d1a6505a25a0f03a568e978b",
+        "sha256_in_prefix": "27b56b68c616aad67651dffd4971fc4c84a53bd3d1a6505a25a0f03a568e978b",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "Lib/site-packages/dns/ttl.py",
+        "path_type": "hardlink",
+        "sha256": "3bc35ef5663bd0ed209f3463fd69514d833a737b8baabf1c5ff679dc8b2d8e1e",
+        "sha256_in_prefix": "3bc35ef5663bd0ed209f3463fd69514d833a737b8baabf1c5ff679dc8b2d8e1e",
+        "size_in_bytes": 2917
+      },
+      {
+        "_path": "Lib/site-packages/dns/update.py",
+        "path_type": "hardlink",
+        "sha256": "84e84ee08d2194581bf8399c89d004e2736c267dc3e8e5a98607d01080c09b9b",
+        "sha256_in_prefix": "84e84ee08d2194581bf8399c89d004e2736c267dc3e8e5a98607d01080c09b9b",
+        "size_in_bytes": 10807
+      },
+      {
+        "_path": "Lib/site-packages/dns/update.pyi",
+        "path_type": "hardlink",
+        "sha256": "d479d7f84be71a21f9f973021a7d356d049b3f630c90f42274cc6ca1f478513a",
+        "sha256_in_prefix": "d479d7f84be71a21f9f973021a7d356d049b3f630c90f42274cc6ca1f478513a",
+        "size_in_bytes": 1006
+      },
+      {
+        "_path": "Lib/site-packages/dns/version.py",
+        "path_type": "hardlink",
+        "sha256": "dc09a7369eea997220be7479c09e10624f51296e056d8e83a99e91f20bc93a1d",
+        "sha256_in_prefix": "dc09a7369eea997220be7479c09e10624f51296e056d8e83a99e91f20bc93a1d",
+        "size_in_bytes": 1591
+      },
+      {
+        "_path": "Lib/site-packages/dns/versioned.py",
+        "path_type": "hardlink",
+        "sha256": "0bfa6f78c66f9cbeae0db6bec7f70ae8d8cf65d1c456d934dd4e000ef722ba8c",
+        "sha256_in_prefix": "0bfa6f78c66f9cbeae0db6bec7f70ae8d8cf65d1c456d934dd4e000ef722ba8c",
+        "size_in_bytes": 10497
+      },
+      {
+        "_path": "Lib/site-packages/dns/win32util.py",
+        "path_type": "hardlink",
+        "sha256": "3dab65f330e78badb7ba9b48748cb592d8c730d3c4e70197436d251911030473",
+        "sha256_in_prefix": "3dab65f330e78badb7ba9b48748cb592d8c730d3c4e70197436d251911030473",
+        "size_in_bytes": 8768
+      },
+      {
+        "_path": "Lib/site-packages/dns/wire.py",
+        "path_type": "hardlink",
+        "sha256": "cb06d2e284f391fd33cff0992b99dee7266365a7c699fa1bd645daa48fcf7970",
+        "sha256_in_prefix": "cb06d2e284f391fd33cff0992b99dee7266365a7c699fa1bd645daa48fcf7970",
+        "size_in_bytes": 2540
+      },
+      {
+        "_path": "Lib/site-packages/dns/xfr.py",
+        "path_type": "hardlink",
+        "sha256": "fa1ce0519e54a7acde451832edfa36f95a6611328c334fbc29f0c62c43c756a1",
+        "sha256_in_prefix": "fa1ce0519e54a7acde451832edfa36f95a6611328c334fbc29f0c62c43c756a1",
+        "size_in_bytes": 12576
+      },
+      {
+        "_path": "Lib/site-packages/dns/zone.py",
+        "path_type": "hardlink",
+        "sha256": "0b891f929ea4f1bf385781e9fac444a5bf5fdabaa412eb45029c84cde5e79930",
+        "sha256_in_prefix": "0b891f929ea4f1bf385781e9fac444a5bf5fdabaa412eb45029c84cde5e79930",
+        "size_in_bytes": 44839
+      },
+      {
+        "_path": "Lib/site-packages/dns/zone.pyi",
+        "path_type": "hardlink",
+        "sha256": "c0dc82c4d3f04f4105461e9426a50709823119f7ddbe70fab873a4f7ced47ef7",
+        "sha256_in_prefix": "c0dc82c4d3f04f4105461e9426a50709823119f7ddbe70fab873a4f7ced47ef7",
+        "size_in_bytes": 2958
+      },
+      {
+        "_path": "Lib/site-packages/dns/zonefile.py",
+        "path_type": "hardlink",
+        "sha256": "97231492990289268332f1c5b8fe53eeadefd5f0c3316a48e11a1f17d8dcbc25",
+        "sha256_in_prefix": "97231492990289268332f1c5b8fe53eeadefd5f0c3316a48e11a1f17d8dcbc25",
+        "size_in_bytes": 24347
+      },
+      {
+        "_path": "Lib/site-packages/dnspython-2.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/dnspython-2.2.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c3ea3ff5654b329c19d3bc5f7481af623c3dded4a6145585499f843ad3d741cd",
+        "sha256_in_prefix": "c3ea3ff5654b329c19d3bc5f7481af623c3dded4a6145585499f843ad3d741cd",
+        "size_in_bytes": 1526
+      },
+      {
+        "_path": "Lib/site-packages/dnspython-2.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5897355af2854b7542e897a8922d69cbbb7956b500d7bdec91d6dc071b5d7892",
+        "sha256_in_prefix": "5897355af2854b7542e897a8922d69cbbb7956b500d7bdec91d6dc071b5d7892",
+        "size_in_bytes": 4944
+      },
+      {
+        "_path": "Lib/site-packages/dnspython-2.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c56d332c790d1f0f7b96cb44c1fbb51461496aefa309aa91f9d0edb2b0373d9a",
+        "sha256_in_prefix": "c56d332c790d1f0f7b96cb44c1fbb51461496aefa309aa91f9d0edb2b0373d9a",
+        "size_in_bytes": 18271
+      },
+      {
+        "_path": "Lib/site-packages/dnspython-2.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/dnspython-2.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "bd50af8dc9b1b9496d7fc718849d2c24c4432ebd57b0fbb110877c603cdbc826",
+        "sha256_in_prefix": "bd50af8dc9b1b9496d7fc718849d2c24c4432ebd57b0fbb110877c603cdbc826",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "Lib/site-packages/dnspython-2.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "aaa2b9619ef3ba1703797581b17103dac6b4b300b8182c535cc691b3f074c022",
+        "sha256_in_prefix": "aaa2b9619ef3ba1703797581b17103dac6b4b300b8182c535cc691b3f074c022",
+        "size_in_bytes": 73
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e3009427acdf195a7e37c9d1eb1c2c1f4cdd0a2f15ec636547e999b24a6c013d",
+  "size": 381913,
+  "subdir": "win-64",
+  "timestamp": 1676436547156,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/dnspython-2.2.1-py311haa95532_0.conda",
+  "version": "2.2.1"
+}

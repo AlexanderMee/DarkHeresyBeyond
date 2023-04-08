@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="jumbotron">
+    {% if current_user.is_authenticated %}
+      <h1>Hello {{ current_user.name }}</h1>
+      <p>Welcome to Dark Heresy Beyond! Click below to view your characters or create a new one.</p>
+      <a class="btn btn-primary btn-lg" href="{{ url_for('characters.index') }}" role="button">View Characters</a>
+    {% else %}
+      <h1>Hello Stranger</h1>
+      <p>Welcome to Dark Heresy Beyond! Please log in to view your characters or create a new one.</p>
+      <a class="btn btn-primary btn-lg" href="{{ url_for('auth_goog.login') }}" role="button">Log In</a>
+    {% endif %}
+  </div>
+{% endblock %}

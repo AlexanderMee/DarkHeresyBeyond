@@ -1,0 +1,144 @@
+{
+  "build": "py311haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "dnspython >=1.15.0",
+    "idna >=2.0.0",
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\mrale\\anaconda3\\pkgs\\email-validator-1.2.1-py311haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/email_validator-1.2.1.dist-info/INSTALLER",
+    "Lib/site-packages/email_validator-1.2.1.dist-info/LICENSE",
+    "Lib/site-packages/email_validator-1.2.1.dist-info/METADATA",
+    "Lib/site-packages/email_validator-1.2.1.dist-info/RECORD",
+    "Lib/site-packages/email_validator-1.2.1.dist-info/REQUESTED",
+    "Lib/site-packages/email_validator-1.2.1.dist-info/WHEEL",
+    "Lib/site-packages/email_validator-1.2.1.dist-info/direct_url.json",
+    "Lib/site-packages/email_validator-1.2.1.dist-info/entry_points.txt",
+    "Lib/site-packages/email_validator-1.2.1.dist-info/top_level.txt",
+    "Lib/site-packages/email_validator/__init__.py",
+    "Lib/site-packages/email_validator/__pycache__/__init__.cpython-311.pyc",
+    "Scripts/email_validator-script.py",
+    "Scripts/email_validator.exe",
+    ".nonadmin"
+  ],
+  "fn": "email-validator-1.2.1-py311haa95532_0.conda",
+  "legacy_bz2_md5": "f1b417feaa42b7528e16942e33c38ad7",
+  "license": "CC0-1.0",
+  "license_family": "CC",
+  "link": {
+    "source": "C:\\Users\\mrale\\anaconda3\\pkgs\\email-validator-1.2.1-py311haa95532_0",
+    "type": 1
+  },
+  "md5": "49a1bc167cbca8775fa4cb79535ed48a",
+  "name": "email-validator",
+  "package_tarball_full_path": "C:\\Users\\mrale\\anaconda3\\pkgs\\email-validator-1.2.1-py311haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/email_validator-1.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-1.2.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+        "sha256_in_prefix": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+        "size_in_bytes": 7048
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-1.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "45859b4ed289727c9214cbe30739083cb92c7fa55e905e1cdb564c7235ebd3b4",
+        "sha256_in_prefix": "45859b4ed289727c9214cbe30739083cb92c7fa55e905e1cdb564c7235ebd3b4",
+        "size_in_bytes": 22855
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-1.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1d5855310d9d7f21334213f16beab8ccfc75dd5dfb6221b0d48d054364e104c9",
+        "sha256_in_prefix": "1d5855310d9d7f21334213f16beab8ccfc75dd5dfb6221b0d48d054364e104c9",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-1.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-1.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "sha256_in_prefix": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-1.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f301241dace2dbc61af2b406712f8a2a6554dd6f60b5085bbcc979394aff1f73",
+        "sha256_in_prefix": "f301241dace2dbc61af2b406712f8a2a6554dd6f60b5085bbcc979394aff1f73",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-1.2.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "0e23fd99a8130bfa46750eed0d10ca3fb8b797cfb66fc1a0c05d003e9abcc39e",
+        "sha256_in_prefix": "0e23fd99a8130bfa46750eed0d10ca3fb8b797cfb66fc1a0c05d003e9abcc39e",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-1.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7d80ce49615991ee3abaded6a9d3802638e19693d801a3b03b022c877b3ca162",
+        "sha256_in_prefix": "7d80ce49615991ee3abaded6a9d3802638e19693d801a3b03b022c877b3ca162",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c34b5c610749d869078b819256aa595322bd44be1ecf78a8a1eb629d6dfc458e",
+        "sha256_in_prefix": "c34b5c610749d869078b819256aa595322bd44be1ecf78a8a1eb629d6dfc458e",
+        "size_in_bytes": 31881
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a76b68e3286058cd1d4703de1f3c9a752af26f1671b59b34b043507097077824",
+        "sha256_in_prefix": "a76b68e3286058cd1d4703de1f3c9a752af26f1671b59b34b043507097077824",
+        "size_in_bytes": 22897
+      },
+      {
+        "_path": "Scripts/email_validator-script.py",
+        "path_type": "hardlink",
+        "sha256": "c055352423c4657eacf556571f9f4d9a6c4dd72982b27a86b2b3e4857705a61c",
+        "sha256_in_prefix": "c055352423c4657eacf556571f9f4d9a6c4dd72982b27a86b2b3e4857705a61c",
+        "size_in_bytes": 209
+      },
+      {
+        "_path": "Scripts/email_validator.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ed5ce6020404f1df00b429c8add19a381404fb41e569824c7aa0758f453972d6",
+  "size": 55338,
+  "subdir": "win-64",
+  "timestamp": 1676440775658,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/email-validator-1.2.1-py311haa95532_0.conda",
+  "version": "1.2.1"
+}
